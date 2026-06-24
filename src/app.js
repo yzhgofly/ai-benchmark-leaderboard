@@ -17,7 +17,27 @@
   };
 
   async function loadData() {
-    // Vercel 部署时使用 serverless 端点（实时抓取），本地或文件不存在时退回静态 JSON
+    // 优先：从浏览器直接抓取（绕过 Vercel 服务端网络限制）
+    // fallback：API（服务端抓取或有本地缓存）
+    // 最终 fallback：静态 JSON
+    try {
+      const payload = await BrowserFetcher.fetchAll();
+      if (payload.benchmarks && payload.benchmarks.length > 0) {
+        state.benchmarks = payload.benchmarks;
+        state.generatedAt = payload.generatedAt;
+        state.sources = payload.sources;
+        state.dataSource = 'browser';
+        renderHeader();
+        state.activeId = state.benchmarks[0].id;
+        renderNav();
+        renderBenchmark();
+        return;
+      }
+    } catch (e) {
+      console.warn('[App] Browser fetch failed, trying API:', e);
+    }
+
+    // Fallback 1: API（服务端抓取）
     const candidates = [
       { url: "api/leaderboard", type: "api" },
       { url: "data/benchmarks.json", type: "static" }
@@ -25,10 +45,7 @@
     let lastErr = null;
     for (const c of candidates) {
       try {
-        const res = await fetch(c.url + (c.type === "api" ? "?_=" + Date.now() : "?_=" + Date.now()), {
-          cache: "no-cache",
-          headers: c.type === "api" ? { "accept": "application/json" } : {}
-        });
+        const res = await fetch(c.url + "?_=" + Date.now(), { cache: "no-cache" });
         if (!res.ok) throw new Error("HTTP " + res.status + " for " + c.url);
         const json = await res.json();
         state.benchmarks = Array.isArray(json.benchmarks) ? json.benchmarks : [];
@@ -49,7 +66,7 @@
       }
     }
     console.error("加载数据失败:", lastErr);
-    renderEmpty("加载数据失败，请通过本地静态服务器打开页面");
+    renderEmpty("加载数据失败，请刷新重试");
   }
 
   function renderHeader() {
