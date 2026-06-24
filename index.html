@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 大模型基准测试榜单</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" content="#0b1020" />
+  <link rel="stylesheet" href="src/style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="title">
+      <h1>🏆 AI 大模型基准测试榜单</h1>
+      <p class="subtitle">一站式查看主流大模型在各基准测试的 Top 30 表现</p>
+      <p class="updated-at" id="updatedAt"></p>
+    </div>
+    <div class="search-box">
+      <input id="searchInput" type="text" placeholder="🔍 搜索模型名称 / 厂商..." autocomplete="off" />
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <h2>基准测试</h2>
+      <nav id="benchmarkNav" class="benchmark-nav"></nav>
+    </aside>
+
+    <section class="content">
+      <div class="benchmark-meta" id="benchmarkMeta"></div>
+      <div class="table-wrapper">
+        <table class="leaderboard">
+          <thead>
+            <tr>
+              <th class="col-rank">排名</th>
+              <th class="col-model">模型</th>
+              <th class="col-vendor">厂商</th>
+              <th class="col-score">分数</th>
+              <th class="col-date">评测日期</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboardBody"></tbody>
+        </table>
+        <div id="emptyHint" class="empty-hint" hidden>未找到匹配的模型</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <span>数据为整理示例，仅用于显示板展示 · 排名依据各基准官方分数</span>
+  </footer>
+
+  <script src="src/app.js"></script>
+</body>
+</html>

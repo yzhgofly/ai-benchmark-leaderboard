@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/**/*.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "api/$1" },
+    { "src": "/data/(.*)", "dest": "data/$1" },
+    { "src": "/src/(.*)", "dest": "src/$1" },
+    { "src": "/(.*\\.(?:json|css|js|png|svg|ico|webmanifest|txt))", "dest": "/$1" },
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}

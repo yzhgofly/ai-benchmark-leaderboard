@@ -1,0 +1,10 @@
+{
+  "name": "ai-benchmark-leaderboard",
+  "version": "0.2.0",
+  "private": true,
+  "description": "AI 大模型基准测试榜单显示板 (Python 抓取脚本)",
+  "scripts": {
+    "fetch": "python scripts/fetch_leaderboards.py",
+    "serve": "python -m http.server 8765"
+  }
+}

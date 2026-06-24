@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.ico binary
+*.webmanifest binary
+*.json  working-tree-encoding-utf-8
+*.py    working-tree-encoding-utf-8
+*.md    working-tree-encoding-utf-8
+*.html  working-tree-encoding-utf-8
+*.css   working-tree-encoding-utf-8
+*.js    working-tree-encoding-utf-8
+*.yml   working-tree-encoding-utf-8
