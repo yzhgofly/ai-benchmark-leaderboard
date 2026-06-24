@@ -1,3 +1,7 @@
 {
-  "version": 2
+  "version": 2,
+  "builds": [
+    { "src": "api/leaderboard.py", "use": "@vercel/python" },
+    { "src": "api/refresh.py", "use": "@vercel/python" }
+  ]
 }
