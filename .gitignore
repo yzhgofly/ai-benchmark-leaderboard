@@ -23,9 +23,10 @@ desktop.ini
 # Vercel
 .vercel/
 
-# 本地数据快照（部署由 serverless 实时抓取，静态 JSON 不用入库）
-# 如果你想保留一份作为离线 fallback，可以删掉下一行
-data/benchmarks.json
+# 本地数据快照（如果想保留一份作为离线 fallback，
+# 可以把下面的 benchmarks.json 保留在版本库中）
+# data/benchmarks.json
 
 # 临时脚本
 scripts/_probe.py
+push-to-github.ps1
