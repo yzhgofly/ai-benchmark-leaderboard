@@ -17,9 +17,6 @@
   };
 
   async function loadData() {
-    // 优先：从浏览器直接抓取（绕过 Vercel 服务端网络限制）
-    // fallback：API（服务端抓取或有本地缓存）
-    // 最终 fallback：静态 JSON
     try {
       const payload = await BrowserFetcher.fetchAll();
       if (payload.benchmarks && payload.benchmarks.length > 0) {
@@ -34,38 +31,29 @@
         return;
       }
     } catch (e) {
-      console.warn('[App] Browser fetch failed, trying API:', e);
+      console.warn('[App] Browser fetch failed, trying static fallback:', e);
     }
 
-    // Fallback 1: API（服务端抓取）
-    const candidates = [
-      { url: "api/leaderboard", type: "api" },
-      { url: "data/benchmarks.json", type: "static" }
-    ];
-    let lastErr = null;
-    for (const c of candidates) {
-      try {
-        const res = await fetch(c.url + "?_=" + Date.now(), { cache: "no-cache" });
-        if (!res.ok) throw new Error("HTTP " + res.status + " for " + c.url);
-        const json = await res.json();
-        state.benchmarks = Array.isArray(json.benchmarks) ? json.benchmarks : [];
-        state.generatedAt = json.generatedAt || null;
-        state.sources = Array.isArray(json.sources) ? json.sources : [];
-        state.dataSource = c.type;
-        renderHeader();
-        if (state.benchmarks.length === 0) {
-          renderEmpty("数据为空");
-          return;
-        }
-        state.activeId = state.benchmarks[0].id;
-        renderNav();
-        renderBenchmark();
+    try {
+      const res = await fetch("data/benchmarks.json?_=" + Date.now(), { cache: "no-cache" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const json = await res.json();
+      state.benchmarks = Array.isArray(json.benchmarks) ? json.benchmarks : [];
+      state.generatedAt = json.generatedAt || null;
+      state.sources = Array.isArray(json.sources) ? json.sources : [];
+      state.dataSource = 'static';
+      renderHeader();
+      if (state.benchmarks.length === 0) {
+        renderEmpty("数据为空");
         return;
-      } catch (err) {
-        lastErr = err;
       }
+      state.activeId = state.benchmarks[0].id;
+      renderNav();
+      renderBenchmark();
+      return;
+    } catch (err) {
+      console.error("加载数据失败:", err);
     }
-    console.error("加载数据失败:", lastErr);
     renderEmpty("加载数据失败，请刷新重试");
   }
 

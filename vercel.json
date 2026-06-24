@@ -1,11 +1,3 @@
 {
-  "version": 2,
-  "functions": {
-    "api/leaderboard.js": {
-      "runtime": "@vercel/node@3"
-    },
-    "api/refresh.js": {
-      "runtime": "@vercel/node@3"
-    }
-  }
+  "version": 2
 }
