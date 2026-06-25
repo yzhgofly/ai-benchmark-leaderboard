@@ -1,6 +1,2099 @@
 {
-  "generatedAt": "2026-06-24 18:13:16",
+  "generatedAt": "2026-06-25T03:04:44+00:00",
+  "sources": [
+    {
+      "name": "Artificial Analysis",
+      "ok": true,
+      "error": null,
+      "entries": 120,
+      "stale": false
+    },
+    {
+      "name": "Vellum LLM Leaderboard",
+      "ok": true,
+      "error": null,
+      "entries": 180,
+      "stale": false
+    },
+    {
+      "name": "LiveBench",
+      "ok": true,
+      "error": null,
+      "entries": 210,
+      "stale": true
+    }
+  ],
   "benchmarks": [
+    {
+      "id": "aa-intelligence",
+      "name": "AA Intelligence Index",
+      "fullName": "Artificial Analysis Intelligence Index",
+      "metric": "Index (0-100)",
+      "description": "AA 综合智力指数，融合 MMLU-Pro、GPQA Diamond、HumanEval、AIME、SciCode 等。",
+      "source": "Artificial Analysis",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "updatedAt": "2026-06-25",
+      "entries": [
+        {
+          "rank": 1,
+          "model": "Claude Fable 5 (with fallback)",
+          "vendor": "Anthropic",
+          "score": 60.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Opus 4.8 (max)",
+          "vendor": "Anthropic",
+          "score": 56.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 3,
+          "model": "GPT-5.5 (xhigh)",
+          "vendor": "OpenAI",
+          "score": 55.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 4,
+          "model": "Claude Opus 4.7 (max)",
+          "vendor": "Anthropic",
+          "score": 54.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 5,
+          "model": "GPT-5.5 (high)",
+          "vendor": "OpenAI",
+          "score": 53.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 6,
+          "model": "GLM-5.2 (max)",
+          "vendor": "Z AI",
+          "score": 51.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 7,
+          "model": "GPT-5.5 (medium)",
+          "vendor": "OpenAI",
+          "score": 50.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 8,
+          "model": "Gemini 3.5 Flash",
+          "vendor": "Google",
+          "score": 50.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 9,
+          "model": "Claude Sonnet 4.6 (max)",
+          "vendor": "Anthropic",
+          "score": 47.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 10,
+          "model": "Gemini 3.1 Pro Preview",
+          "vendor": "Google",
+          "score": 46.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 11,
+          "model": "Qwen3.7 Max",
+          "vendor": "Alibaba",
+          "score": 46.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 12,
+          "model": "Gemini 3.5 Flash (medium)",
+          "vendor": "Google",
+          "score": 45.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 13,
+          "model": "MiniMax-M3",
+          "vendor": "MiniMax",
+          "score": 44.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 14,
+          "model": "DeepSeek V4 Pro (Max)",
+          "vendor": "DeepSeek",
+          "score": 44.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 15,
+          "model": "GPT-5.3 Codex (xhigh)",
+          "vendor": "OpenAI",
+          "score": 44.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 16,
+          "model": "GPT-5.5 (low)",
+          "vendor": "OpenAI",
+          "score": 43.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 17,
+          "model": "Muse Spark",
+          "vendor": "Meta",
+          "score": 43.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 18,
+          "model": "Kimi K2.6",
+          "vendor": "Kimi",
+          "score": 43.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 19,
+          "model": "Claude Opus 4.7 (Non-reasoning, high)",
+          "vendor": "Anthropic",
+          "score": 43.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 20,
+          "model": "MiMo-V2.5-Pro",
+          "vendor": "Xiaomi",
+          "score": 42.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 21,
+          "model": "Kimi K2.7 Code",
+          "vendor": "Kimi",
+          "score": 42.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 22,
+          "model": "Nex-N2-Pro",
+          "vendor": "Nex AGI",
+          "score": 41.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 23,
+          "model": "DeepSeek V4 Pro (High)",
+          "vendor": "DeepSeek",
+          "score": 41.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 24,
+          "model": "DeepSeek V4 Flash (Max)",
+          "vendor": "DeepSeek",
+          "score": 40.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 25,
+          "model": "GLM-5.1",
+          "vendor": "Z AI",
+          "score": 40.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 26,
+          "model": "MiMo-V2.5",
+          "vendor": "Xiaomi",
+          "score": 40.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 27,
+          "model": "GPT-5.4 mini (xhigh)",
+          "vendor": "OpenAI",
+          "score": 40.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 28,
+          "model": "Grok Build 0.1 0616",
+          "vendor": "xAI",
+          "score": 40.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 29,
+          "model": "Qwen3.6 Plus",
+          "vendor": "Alibaba",
+          "score": 40.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 30,
+          "model": "Qwen3.7 Plus",
+          "vendor": "Alibaba",
+          "score": 39.0,
+          "date": "2026-06-25"
+        }
+      ]
+    },
+    {
+      "id": "aa-price",
+      "name": "AA Price (Lower is Better)",
+      "fullName": "Artificial Analysis - Blended USD/1M Tokens",
+      "metric": "USD / 1M tokens (越低越好)",
+      "description": "AA 混合价（输入+输出加权），数值越低越便宜。",
+      "source": "Artificial Analysis",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "updatedAt": "2026-06-25",
+      "entries": [
+        {
+          "rank": 1,
+          "model": "MiMo-V2-Omni",
+          "vendor": "Xiaomi",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 2,
+          "model": "Gemma 4 31B",
+          "vendor": "Google",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 3,
+          "model": "Command A+",
+          "vendor": "Cohere",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 4,
+          "model": "North Mini Code",
+          "vendor": "Cohere",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 5,
+          "model": "LongCat Flash Lite",
+          "vendor": "LongCat",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 6,
+          "model": "Devstral 2",
+          "vendor": "Mistral",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 7,
+          "model": "Devstral Small 2",
+          "vendor": "Mistral",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 8,
+          "model": "LFM2.5-8B-A1B",
+          "vendor": "Liquid AI",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 9,
+          "model": "Phi-4 Multimodal",
+          "vendor": "Microsoft",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 10,
+          "model": "Phi-4 Mini",
+          "vendor": "Microsoft",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 11,
+          "model": "LFM2 2.6B",
+          "vendor": "Liquid AI",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 12,
+          "model": "LFM2.5-1.2B-Instruct",
+          "vendor": "Liquid AI",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 13,
+          "model": "LFM2 8B A1B",
+          "vendor": "Liquid AI",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 14,
+          "model": "LFM2.5-VL-1.6B",
+          "vendor": "Liquid AI",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 15,
+          "model": "Tiny Aya Global",
+          "vendor": "Cohere",
+          "score": 0.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 16,
+          "model": "Qwen3.5 0.8B",
+          "vendor": "Alibaba",
+          "score": 0.01,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 17,
+          "model": "Qwen3.5 0.8B",
+          "vendor": "Alibaba",
+          "score": 0.01,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 18,
+          "model": "Qwen3.5 2B",
+          "vendor": "Alibaba",
+          "score": 0.03,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 19,
+          "model": "Qwen3.5 2B",
+          "vendor": "Alibaba",
+          "score": 0.03,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 20,
+          "model": "Sarvam 30B (high)",
+          "vendor": "Sarvam",
+          "score": 0.03,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 21,
+          "model": "Nova Micro",
+          "vendor": "Amazon",
+          "score": 0.03,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 22,
+          "model": "Qwen3.5 4B",
+          "vendor": "Alibaba",
+          "score": 0.04,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 23,
+          "model": "Qwen3.5 4B",
+          "vendor": "Alibaba",
+          "score": 0.04,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 24,
+          "model": "Sarvam 105B (high)",
+          "vendor": "Sarvam",
+          "score": 0.04,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 25,
+          "model": "LFM2 24B A2B",
+          "vendor": "Liquid AI",
+          "score": 0.04,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 26,
+          "model": "HyperNova 60B 2605",
+          "vendor": "Multiverse Computing",
+          "score": 0.05,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 27,
+          "model": "NVIDIA Nemotron Nano 9B V2",
+          "vendor": "NVIDIA",
+          "score": 0.05,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 28,
+          "model": "DeepSeek V4 Flash (Max)",
+          "vendor": "DeepSeek",
+          "score": 0.06,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 29,
+          "model": "MiMo-V2.5",
+          "vendor": "Xiaomi",
+          "score": 0.06,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 30,
+          "model": "MiMo-V2-Flash (Feb 2026)",
+          "vendor": "Xiaomi",
+          "score": 0.06,
+          "date": "2026-06-25"
+        }
+      ]
+    },
+    {
+      "id": "aa-speed",
+      "name": "AA Output Speed",
+      "fullName": "Artificial Analysis - Median Output Speed",
+      "metric": "Tokens / second",
+      "description": "AA Median 输出速度 (tokens/s)，数值越高越快。",
+      "source": "Artificial Analysis",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "updatedAt": "2026-06-25",
+      "entries": [
+        {
+          "rank": 1,
+          "model": "Mercury 2",
+          "vendor": "Inception",
+          "score": 894.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 2,
+          "model": "LFM2.5-1.2B-Instruct",
+          "vendor": "Liquid AI",
+          "score": 496.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 3,
+          "model": "Granite 4.0 H Small",
+          "vendor": "IBM",
+          "score": 481.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 4,
+          "model": "LFM2.5-VL-1.6B",
+          "vendor": "Liquid AI",
+          "score": 452.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 5,
+          "model": "Step 3.7 Flash",
+          "vendor": "StepFun",
+          "score": 401.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 6,
+          "model": "HyperNova 60B 2605",
+          "vendor": "Multiverse Computing",
+          "score": 389.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 7,
+          "model": "Gemini 3.1 Flash-Lite",
+          "vendor": "Google",
+          "score": 357.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 8,
+          "model": "gpt-oss-120b (low)",
+          "vendor": "OpenAI",
+          "score": 337.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 9,
+          "model": "LFM2 2.6B",
+          "vendor": "Liquid AI",
+          "score": 336.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 10,
+          "model": "gpt-oss-120b (high)",
+          "vendor": "OpenAI",
+          "score": 328.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 11,
+          "model": "Nova Micro",
+          "vendor": "Amazon",
+          "score": 303.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 12,
+          "model": "Nemotron 3 Nano Omni 30B A3B Reasoning",
+          "vendor": "NVIDIA",
+          "score": 287.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 13,
+          "model": "Qwen3.5 Omni Flash",
+          "vendor": "Alibaba",
+          "score": 266.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 14,
+          "model": "NVIDIA Nemotron Nano 12B v2 VL",
+          "vendor": "NVIDIA",
+          "score": 256.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 15,
+          "model": "NVIDIA Nemotron 3 Super",
+          "vendor": "NVIDIA",
+          "score": 243.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 16,
+          "model": "Llama 3.1 Nemotron 70B",
+          "vendor": "NVIDIA",
+          "score": 237.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 17,
+          "model": "gpt-oss-20B (low)",
+          "vendor": "OpenAI",
+          "score": 233.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 18,
+          "model": "LFM2.5-8B-A1B",
+          "vendor": "Liquid AI",
+          "score": 230.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 19,
+          "model": "gpt-oss-20B (high)",
+          "vendor": "OpenAI",
+          "score": 228.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 20,
+          "model": "NVIDIA Nemotron Nano 12B v2 VL",
+          "vendor": "NVIDIA",
+          "score": 211.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 21,
+          "model": "Step 3.5 Flash 2603",
+          "vendor": "StepFun",
+          "score": 207.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 22,
+          "model": "Qwen3.7 Max",
+          "vendor": "Alibaba",
+          "score": 204.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 23,
+          "model": "Command A+",
+          "vendor": "Cohere",
+          "score": 204.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 24,
+          "model": "Trinity Large Thinking",
+          "vendor": "Arcee AI",
+          "score": 200.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 25,
+          "model": "Ling 2.6 Flash",
+          "vendor": "InclusionAI",
+          "score": 197.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 26,
+          "model": "Qwen3.5 35B A3B",
+          "vendor": "Alibaba",
+          "score": 193.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 27,
+          "model": "Qwen3.6 35B A3B",
+          "vendor": "Alibaba",
+          "score": 190.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 28,
+          "model": "Gemini 3.5 Flash (medium)",
+          "vendor": "Google",
+          "score": 187.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 29,
+          "model": "Qwen3 Next 80B A3B",
+          "vendor": "Alibaba",
+          "score": 187.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 30,
+          "model": "Gemini 3.5 Flash",
+          "vendor": "Google",
+          "score": 185.0,
+          "date": "2026-06-25"
+        }
+      ]
+    },
+    {
+      "id": "aa-context",
+      "name": "AA Context Window",
+      "fullName": "Artificial Analysis - Context Window",
+      "metric": "Tokens (越大越好)",
+      "description": "AA 上下文窗口（最大输入 token 数），数值越大支持的上下文越长。",
+      "source": "Artificial Analysis",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "updatedAt": "2026-06-25",
+      "entries": [
+        {
+          "rank": 1,
+          "model": "Llama 4 Scout",
+          "vendor": "Meta",
+          "score": 10000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Fable 5 (with fallback)",
+          "vendor": "Anthropic",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Opus 4.8 (max)",
+          "vendor": "Anthropic",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 4,
+          "model": "Claude Opus 4.7 (max)",
+          "vendor": "Anthropic",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 5,
+          "model": "GLM-5.2 (max)",
+          "vendor": "Z AI",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 6,
+          "model": "Gemini 3.5 Flash",
+          "vendor": "Google",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 7,
+          "model": "Claude Sonnet 4.6 (max)",
+          "vendor": "Anthropic",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 8,
+          "model": "Gemini 3.1 Pro Preview",
+          "vendor": "Google",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 9,
+          "model": "Qwen3.7 Max",
+          "vendor": "Alibaba",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 10,
+          "model": "Gemini 3.5 Flash (medium)",
+          "vendor": "Google",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 11,
+          "model": "MiniMax-M3",
+          "vendor": "MiniMax",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 12,
+          "model": "DeepSeek V4 Pro (Max)",
+          "vendor": "DeepSeek",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 13,
+          "model": "Claude Opus 4.7 (Non-reasoning, high)",
+          "vendor": "Anthropic",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 14,
+          "model": "MiMo-V2.5-Pro",
+          "vendor": "Xiaomi",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 15,
+          "model": "DeepSeek V4 Pro (High)",
+          "vendor": "DeepSeek",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 16,
+          "model": "DeepSeek V4 Flash (Max)",
+          "vendor": "DeepSeek",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 17,
+          "model": "MiMo-V2.5",
+          "vendor": "Xiaomi",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 18,
+          "model": "Qwen3.6 Plus",
+          "vendor": "Alibaba",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 19,
+          "model": "Qwen3.7 Plus",
+          "vendor": "Alibaba",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 20,
+          "model": "Grok 4.3 (high)",
+          "vendor": "xAI",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 21,
+          "model": "DeepSeek V4 Flash (High)",
+          "vendor": "DeepSeek",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 22,
+          "model": "Grok 4.3 (medium)",
+          "vendor": "xAI",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 23,
+          "model": "Claude Sonnet 4.6 (Non-reasoning)",
+          "vendor": "Anthropic",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 24,
+          "model": "Grok 4.3 (low)",
+          "vendor": "xAI",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 25,
+          "model": "Gemini 3.5 Flash (minimal)",
+          "vendor": "Google",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 26,
+          "model": "Claude Sonnet 4.6 (Non-reasoning, Low Effort)",
+          "vendor": "Anthropic",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 27,
+          "model": "DeepSeek V4 Pro",
+          "vendor": "DeepSeek",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 28,
+          "model": "DeepSeek V4 Flash",
+          "vendor": "DeepSeek",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 29,
+          "model": "MiMo-V2.5-Pro",
+          "vendor": "Xiaomi",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        },
+        {
+          "rank": 30,
+          "model": "Gemini 2.5 Pro",
+          "vendor": "Google",
+          "score": 1000000.0,
+          "date": "2026-06-25"
+        }
+      ]
+    },
+    {
+      "id": "vellum-gpqa",
+      "name": "GPQA Diamond",
+      "fullName": "Vellum LLM Leaderboard - GPQA Diamond",
+      "metric": "Accuracy (%)",
+      "description": "GPQA Diamond：领域博士设计的研究生级科学推理题。",
+      "source": "Vellum AI",
+      "sourceUrl": "https://www.vellum.ai/llm-leaderboard",
+      "updatedAt": "9 Jun 2026",
+      "entries": [
+        {
+          "rank": 1,
+          "model": "Claude 3 Opus",
+          "vendor": "Anthropic",
+          "score": 95.4,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Opus 4.7",
+          "vendor": "Anthropic",
+          "score": 94.2,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Fable 5",
+          "vendor": "Anthropic",
+          "score": 94.1,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 4,
+          "model": "Claude Mythos 5",
+          "vendor": "Anthropic",
+          "score": 94.1,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 5,
+          "model": "Claude Opus 4.8",
+          "vendor": "Anthropic",
+          "score": 93.6,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 6,
+          "model": "Gemini 3 Pro",
+          "vendor": "Google",
+          "score": 92.0
+        },
+        {
+          "rank": 7,
+          "model": "GPT-5.5",
+          "vendor": "OpenAI",
+          "score": 91.5
+        },
+        {
+          "rank": 8,
+          "model": "o3",
+          "vendor": "OpenAI",
+          "score": 90.8
+        },
+        {
+          "rank": 9,
+          "model": "Claude Sonnet 4.6",
+          "vendor": "Anthropic",
+          "score": 90.2
+        },
+        {
+          "rank": 10,
+          "model": "Claude Sonnet 4.5",
+          "vendor": "Anthropic",
+          "score": 89.7
+        },
+        {
+          "rank": 11,
+          "model": "GPT 5.2",
+          "vendor": "OpenAI",
+          "score": 89.3
+        },
+        {
+          "rank": 12,
+          "model": "Claude Opus 4.6",
+          "vendor": "Anthropic",
+          "score": 88.9
+        },
+        {
+          "rank": 13,
+          "model": "DeepSeek V4 Pro",
+          "vendor": "DeepSeek",
+          "score": 88.4
+        },
+        {
+          "rank": 14,
+          "model": "Kimi K2.6 Thinking",
+          "vendor": "Moonshot AI",
+          "score": 87.6
+        },
+        {
+          "rank": 15,
+          "model": "GLM 5.1",
+          "vendor": "Z.AI",
+          "score": 87.1
+        },
+        {
+          "rank": 16,
+          "model": "Qwen 3.7 Max",
+          "vendor": "Alibaba",
+          "score": 86.8
+        },
+        {
+          "rank": 17,
+          "model": "Grok 4.20",
+          "vendor": "xAI",
+          "score": 86.2
+        },
+        {
+          "rank": 18,
+          "model": "Claude Opus 4.5",
+          "vendor": "Anthropic",
+          "score": 85.7
+        },
+        {
+          "rank": 19,
+          "model": "MiniMax M3",
+          "vendor": "MiniMax",
+          "score": 85.3
+        },
+        {
+          "rank": 20,
+          "model": "GPT 5.1",
+          "vendor": "OpenAI",
+          "score": 84.9
+        },
+        {
+          "rank": 21,
+          "model": "Mistral Large 3",
+          "vendor": "Mistral AI",
+          "score": 84.1
+        },
+        {
+          "rank": 22,
+          "model": "Gemini 3.5 Flash",
+          "vendor": "Google",
+          "score": 83.7
+        },
+        {
+          "rank": 23,
+          "model": "Llama 4 Maverick",
+          "vendor": "Meta",
+          "score": 83.2
+        },
+        {
+          "rank": 24,
+          "model": "MiMo V2.5 Pro",
+          "vendor": "Xiaomi",
+          "score": 82.6
+        },
+        {
+          "rank": 25,
+          "model": "Claude 4.1 Opus",
+          "vendor": "Anthropic",
+          "score": 82.0
+        },
+        {
+          "rank": 26,
+          "model": "GPT OSS 120b",
+          "vendor": "OpenAI",
+          "score": 81.4
+        },
+        {
+          "rank": 27,
+          "model": "Grok 4.1",
+          "vendor": "xAI",
+          "score": 80.8
+        },
+        {
+          "rank": 28,
+          "model": "DeepSeek V3.2",
+          "vendor": "DeepSeek",
+          "score": 80.1
+        },
+        {
+          "rank": 29,
+          "model": "GLM 4.6",
+          "vendor": "Z.AI",
+          "score": 79.4
+        },
+        {
+          "rank": 30,
+          "model": "Qwen 3.6 Plus",
+          "vendor": "Alibaba",
+          "score": 78.7
+        }
+      ]
+    },
+    {
+      "id": "vellum-aime",
+      "name": "AIME 2025 (High School Math)",
+      "fullName": "Vellum LLM Leaderboard - AIME 2025 (High School Math)",
+      "metric": "Accuracy (%)",
+      "description": "AIME 2025：高难度高中数学竞赛，考察多步骤推理。",
+      "source": "Vellum AI",
+      "sourceUrl": "https://www.vellum.ai/llm-leaderboard",
+      "updatedAt": "9 Jun 2026",
+      "entries": [
+        {
+          "rank": 1,
+          "model": "Gemini 3 Pro",
+          "vendor": "Google",
+          "score": 100.0,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 2,
+          "model": "GPT 5.2",
+          "vendor": "OpenAI",
+          "score": 100.0,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Opus 4.6",
+          "vendor": "Anthropic",
+          "score": 99.8,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 4,
+          "model": "Kimi K2 Thinking",
+          "vendor": "Moonshot AI",
+          "score": 99.1,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 5,
+          "model": "GPT oss 20b",
+          "vendor": "OpenAI",
+          "score": 98.7,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 6,
+          "model": "o3",
+          "vendor": "OpenAI",
+          "score": 98.0
+        },
+        {
+          "rank": 7,
+          "model": "Claude Fable 5",
+          "vendor": "Anthropic",
+          "score": 97.5
+        },
+        {
+          "rank": 8,
+          "model": "DeepSeek V4 Pro",
+          "vendor": "DeepSeek",
+          "score": 96.8
+        },
+        {
+          "rank": 9,
+          "model": "GPT-5.5",
+          "vendor": "OpenAI",
+          "score": 96.0
+        },
+        {
+          "rank": 10,
+          "model": "Claude Mythos 5",
+          "vendor": "Anthropic",
+          "score": 95.4
+        },
+        {
+          "rank": 11,
+          "model": "Qwen 3.7 Max",
+          "vendor": "Alibaba",
+          "score": 94.7
+        },
+        {
+          "rank": 12,
+          "model": "Grok 4.20",
+          "vendor": "xAI",
+          "score": 93.9
+        },
+        {
+          "rank": 13,
+          "model": "Claude Sonnet 4.6",
+          "vendor": "Anthropic",
+          "score": 93.2
+        },
+        {
+          "rank": 14,
+          "model": "GLM 5.1",
+          "vendor": "Z.AI",
+          "score": 92.6
+        },
+        {
+          "rank": 15,
+          "model": "GPT 5.1",
+          "vendor": "OpenAI",
+          "score": 91.8
+        },
+        {
+          "rank": 16,
+          "model": "MiniMax M3",
+          "vendor": "MiniMax",
+          "score": 91.0
+        },
+        {
+          "rank": 17,
+          "model": "Claude Opus 4.8",
+          "vendor": "Anthropic",
+          "score": 90.2
+        },
+        {
+          "rank": 18,
+          "model": "Llama 4 Maverick",
+          "vendor": "Meta",
+          "score": 89.5
+        },
+        {
+          "rank": 19,
+          "model": "MiMo V2.5 Pro",
+          "vendor": "Xiaomi",
+          "score": 88.7
+        },
+        {
+          "rank": 20,
+          "model": "Claude 4.1 Opus",
+          "vendor": "Anthropic",
+          "score": 87.9
+        },
+        {
+          "rank": 21,
+          "model": "GPT OSS 120b",
+          "vendor": "OpenAI",
+          "score": 87.0
+        },
+        {
+          "rank": 22,
+          "model": "Mistral Large 3",
+          "vendor": "Mistral AI",
+          "score": 86.1
+        },
+        {
+          "rank": 23,
+          "model": "Gemini 3.5 Flash",
+          "vendor": "Google",
+          "score": 85.4
+        },
+        {
+          "rank": 24,
+          "model": "Kimi K2.5 Thinking",
+          "vendor": "Moonshot AI",
+          "score": 84.6
+        },
+        {
+          "rank": 25,
+          "model": "DeepSeek V3.2",
+          "vendor": "DeepSeek",
+          "score": 83.7
+        },
+        {
+          "rank": 26,
+          "model": "GLM 4.6",
+          "vendor": "Z.AI",
+          "score": 82.8
+        },
+        {
+          "rank": 27,
+          "model": "Qwen 3.6 Plus",
+          "vendor": "Alibaba",
+          "score": 81.9
+        },
+        {
+          "rank": 28,
+          "model": "Grok 4.1",
+          "vendor": "xAI",
+          "score": 80.8
+        },
+        {
+          "rank": 29,
+          "model": "ERNIE 5.0",
+          "vendor": "Baidu",
+          "score": 79.6
+        },
+        {
+          "rank": 30,
+          "model": "Nemotron 3 Ultra",
+          "vendor": "NVIDIA",
+          "score": 78.5
+        }
+      ]
+    },
+    {
+      "id": "vellum-swe",
+      "name": "SWE-Bench Verified (Agentic Coding)",
+      "fullName": "Vellum LLM Leaderboard - SWE-Bench Verified (Agentic Coding)",
+      "metric": "Solve Rate (%)",
+      "description": "SWE-bench Verified：真实开源仓库 PR 任务通过率，衡量 Agent 编码能力。",
+      "source": "Vellum AI",
+      "sourceUrl": "https://www.vellum.ai/llm-leaderboard",
+      "updatedAt": "9 Jun 2026",
+      "entries": [
+        {
+          "rank": 1,
+          "model": "Claude Mythos 5",
+          "vendor": "Anthropic",
+          "score": 95.5,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Fable 5",
+          "vendor": "Anthropic",
+          "score": 95.0,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Opus 4.8",
+          "vendor": "Anthropic",
+          "score": 88.6,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 4,
+          "model": "Claude Opus 4.7",
+          "vendor": "Anthropic",
+          "score": 87.6,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 5,
+          "model": "Claude Sonnet 4.5",
+          "vendor": "Anthropic",
+          "score": 82.0,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 6,
+          "model": "GPT-5.5",
+          "vendor": "OpenAI",
+          "score": 80.5
+        },
+        {
+          "rank": 7,
+          "model": "MiniMax M3",
+          "vendor": "MiniMax",
+          "score": 80.5
+        },
+        {
+          "rank": 8,
+          "model": "GPT 5.2 Codex",
+          "vendor": "OpenAI",
+          "score": 78.0
+        },
+        {
+          "rank": 9,
+          "model": "Kimi K2.7 Code",
+          "vendor": "Moonshot AI",
+          "score": 76.8
+        },
+        {
+          "rank": 10,
+          "model": "Claude Sonnet 4.6",
+          "vendor": "Anthropic",
+          "score": 75.5
+        },
+        {
+          "rank": 11,
+          "model": "GPT 5.1 Codex",
+          "vendor": "OpenAI",
+          "score": 74.0
+        },
+        {
+          "rank": 12,
+          "model": "Qwen 3.7 Max",
+          "vendor": "Alibaba",
+          "score": 72.6
+        },
+        {
+          "rank": 13,
+          "model": "DeepSeek V4 Pro",
+          "vendor": "DeepSeek",
+          "score": 71.4
+        },
+        {
+          "rank": 14,
+          "model": "GLM 5.1",
+          "vendor": "Z.AI",
+          "score": 70.2
+        },
+        {
+          "rank": 15,
+          "model": "Grok 4.20",
+          "vendor": "xAI",
+          "score": 69.0
+        },
+        {
+          "rank": 16,
+          "model": "Gemini 3 Pro",
+          "vendor": "Google",
+          "score": 67.8
+        },
+        {
+          "rank": 17,
+          "model": "Claude Opus 4.6",
+          "vendor": "Anthropic",
+          "score": 66.5
+        },
+        {
+          "rank": 18,
+          "model": "MiMo V2.5 Pro",
+          "vendor": "Xiaomi",
+          "score": 65.0
+        },
+        {
+          "rank": 19,
+          "model": "GPT 5.1",
+          "vendor": "OpenAI",
+          "score": 63.5
+        },
+        {
+          "rank": 20,
+          "model": "Mistral Large 3",
+          "vendor": "Mistral AI",
+          "score": 62.0
+        },
+        {
+          "rank": 21,
+          "model": "Llama 4 Maverick",
+          "vendor": "Meta",
+          "score": 60.5
+        },
+        {
+          "rank": 22,
+          "model": "Claude 4.1 Opus",
+          "vendor": "Anthropic",
+          "score": 59.2
+        },
+        {
+          "rank": 23,
+          "model": "Gemini 3.5 Flash",
+          "vendor": "Google",
+          "score": 57.8
+        },
+        {
+          "rank": 24,
+          "model": "Kimi K2.6 Thinking",
+          "vendor": "Moonshot AI",
+          "score": 56.3
+        },
+        {
+          "rank": 25,
+          "model": "GPT OSS 120b",
+          "vendor": "OpenAI",
+          "score": 55.0
+        },
+        {
+          "rank": 26,
+          "model": "Devstral 2",
+          "vendor": "Mistral AI",
+          "score": 53.5
+        },
+        {
+          "rank": 27,
+          "model": "DeepSeek V3.2",
+          "vendor": "DeepSeek",
+          "score": 52.0
+        },
+        {
+          "rank": 28,
+          "model": "Qwen 3.6 Plus",
+          "vendor": "Alibaba",
+          "score": 50.4
+        },
+        {
+          "rank": 29,
+          "model": "GLM 4.6",
+          "vendor": "Z.AI",
+          "score": 48.6
+        },
+        {
+          "rank": 30,
+          "model": "Nemotron 3 Super",
+          "vendor": "NVIDIA",
+          "score": 46.8
+        }
+      ]
+    },
+    {
+      "id": "vellum-hle",
+      "name": "Humanity's Last Exam (HLE)",
+      "fullName": "Vellum LLM Leaderboard - Humanity's Last Exam (HLE)",
+      "metric": "Accuracy (%)",
+      "description": "Humanity's Last Exam：当前最难的跨学科综合知识与推理评测。",
+      "source": "Vellum AI",
+      "sourceUrl": "https://www.vellum.ai/llm-leaderboard",
+      "updatedAt": "9 Jun 2026",
+      "entries": [
+        {
+          "rank": 1,
+          "model": "Claude Mythos 5",
+          "vendor": "Anthropic",
+          "score": 64.5,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Opus 4.8",
+          "vendor": "Anthropic",
+          "score": 57.9,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 3,
+          "model": "Gemini 3 Pro",
+          "vendor": "Google",
+          "score": 45.8,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 4,
+          "model": "Kimi K2 Thinking",
+          "vendor": "Moonshot AI",
+          "score": 44.9,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 5,
+          "model": "GPT-5.5 Pro",
+          "vendor": "OpenAI",
+          "score": 43.1,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 6,
+          "model": "Claude Opus 4.7",
+          "vendor": "Anthropic",
+          "score": 42.0
+        },
+        {
+          "rank": 7,
+          "model": "Claude Fable 5",
+          "vendor": "Anthropic",
+          "score": 41.2
+        },
+        {
+          "rank": 8,
+          "model": "o3",
+          "vendor": "OpenAI",
+          "score": 40.4
+        },
+        {
+          "rank": 9,
+          "model": "GPT 5.2",
+          "vendor": "OpenAI",
+          "score": 38.7
+        },
+        {
+          "rank": 10,
+          "model": "DeepSeek V4 Pro",
+          "vendor": "DeepSeek",
+          "score": 36.9
+        },
+        {
+          "rank": 11,
+          "model": "Claude Sonnet 4.6",
+          "vendor": "Anthropic",
+          "score": 35.8
+        },
+        {
+          "rank": 12,
+          "model": "Qwen 3.7 Max",
+          "vendor": "Alibaba",
+          "score": 34.6
+        },
+        {
+          "rank": 13,
+          "model": "Grok 4.20",
+          "vendor": "xAI",
+          "score": 33.5
+        },
+        {
+          "rank": 14,
+          "model": "GLM 5.1",
+          "vendor": "Z.AI",
+          "score": 32.7
+        },
+        {
+          "rank": 15,
+          "model": "MiniMax M3",
+          "vendor": "MiniMax",
+          "score": 31.5
+        },
+        {
+          "rank": 16,
+          "model": "GPT 5.1",
+          "vendor": "OpenAI",
+          "score": 30.2
+        },
+        {
+          "rank": 17,
+          "model": "Gemini 3.5 Flash",
+          "vendor": "Google",
+          "score": 29.0
+        },
+        {
+          "rank": 18,
+          "model": "Claude Opus 4.6",
+          "vendor": "Anthropic",
+          "score": 28.4
+        },
+        {
+          "rank": 19,
+          "model": "GPT OSS 120b",
+          "vendor": "OpenAI",
+          "score": 27.3
+        },
+        {
+          "rank": 20,
+          "model": "MiMo V2.5 Pro",
+          "vendor": "Xiaomi",
+          "score": 26.5
+        },
+        {
+          "rank": 21,
+          "model": "Mistral Large 3",
+          "vendor": "Mistral AI",
+          "score": 25.6
+        },
+        {
+          "rank": 22,
+          "model": "Claude 4.1 Opus",
+          "vendor": "Anthropic",
+          "score": 24.8
+        },
+        {
+          "rank": 23,
+          "model": "Llama 4 Maverick",
+          "vendor": "Meta",
+          "score": 24.0
+        },
+        {
+          "rank": 24,
+          "model": "Kimi K2.5 Thinking",
+          "vendor": "Moonshot AI",
+          "score": 23.2
+        },
+        {
+          "rank": 25,
+          "model": "DeepSeek V3.2",
+          "vendor": "DeepSeek",
+          "score": 22.3
+        },
+        {
+          "rank": 26,
+          "model": "Claude 4.5 Opus",
+          "vendor": "Anthropic",
+          "score": 21.4
+        },
+        {
+          "rank": 27,
+          "model": "Qwen 3.6 Plus",
+          "vendor": "Alibaba",
+          "score": 20.5
+        },
+        {
+          "rank": 28,
+          "model": "Grok 4.1",
+          "vendor": "xAI",
+          "score": 19.6
+        },
+        {
+          "rank": 29,
+          "model": "GLM 4.6",
+          "vendor": "Z.AI",
+          "score": 18.5
+        },
+        {
+          "rank": 30,
+          "model": "ERNIE 5.0",
+          "vendor": "Baidu",
+          "score": 17.4
+        }
+      ]
+    },
+    {
+      "id": "vellum-arc",
+      "name": "ARC-AGI 2 (Visual Reasoning)",
+      "fullName": "Vellum LLM Leaderboard - ARC-AGI 2 (Visual Reasoning)",
+      "metric": "Accuracy (%)",
+      "description": "ARC-AGI 2：抽象推理与视觉模式识别评测。",
+      "source": "Vellum AI",
+      "sourceUrl": "https://www.vellum.ai/llm-leaderboard",
+      "updatedAt": "9 Jun 2026",
+      "entries": [
+        {
+          "rank": 1,
+          "model": "GPT-5.5",
+          "vendor": "OpenAI",
+          "score": 85.0,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Opus 4.6",
+          "vendor": "Anthropic",
+          "score": 68.8,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Sonnet 4.6",
+          "vendor": "Anthropic",
+          "score": 58.3,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 4,
+          "model": "GPT 5.2",
+          "vendor": "OpenAI",
+          "score": 52.9,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 5,
+          "model": "Claude Opus 4.5",
+          "vendor": "Anthropic",
+          "score": 37.6,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 6,
+          "model": "Claude Fable 5",
+          "vendor": "Anthropic",
+          "score": 36.0
+        },
+        {
+          "rank": 7,
+          "model": "Gemini 3 Pro",
+          "vendor": "Google",
+          "score": 34.5
+        },
+        {
+          "rank": 8,
+          "model": "Claude Mythos 5",
+          "vendor": "Anthropic",
+          "score": 33.0
+        },
+        {
+          "rank": 9,
+          "model": "Claude Opus 4.7",
+          "vendor": "Anthropic",
+          "score": 31.5
+        },
+        {
+          "rank": 10,
+          "model": "Kimi K2 Thinking",
+          "vendor": "Moonshot AI",
+          "score": 29.8
+        },
+        {
+          "rank": 11,
+          "model": "o3",
+          "vendor": "OpenAI",
+          "score": 28.4
+        },
+        {
+          "rank": 12,
+          "model": "Claude Opus 4.8",
+          "vendor": "Anthropic",
+          "score": 27.5
+        },
+        {
+          "rank": 13,
+          "model": "DeepSeek V4 Pro",
+          "vendor": "DeepSeek",
+          "score": 26.0
+        },
+        {
+          "rank": 14,
+          "model": "MiniMax M3",
+          "vendor": "MiniMax",
+          "score": 24.6
+        },
+        {
+          "rank": 15,
+          "model": "GLM 5.1",
+          "vendor": "Z.AI",
+          "score": 23.2
+        },
+        {
+          "rank": 16,
+          "model": "Qwen 3.7 Max",
+          "vendor": "Alibaba",
+          "score": 22.0
+        },
+        {
+          "rank": 17,
+          "model": "Grok 4.20",
+          "vendor": "xAI",
+          "score": 20.8
+        },
+        {
+          "rank": 18,
+          "model": "GPT 5.1",
+          "vendor": "OpenAI",
+          "score": 19.5
+        },
+        {
+          "rank": 19,
+          "model": "Claude Sonnet 4.5",
+          "vendor": "Anthropic",
+          "score": 18.3
+        },
+        {
+          "rank": 20,
+          "model": "Gemini 3.5 Flash",
+          "vendor": "Google",
+          "score": 17.2
+        },
+        {
+          "rank": 21,
+          "model": "MiMo V2.5 Pro",
+          "vendor": "Xiaomi",
+          "score": 16.0
+        },
+        {
+          "rank": 22,
+          "model": "Kimi K2.5 Thinking",
+          "vendor": "Moonshot AI",
+          "score": 14.8
+        },
+        {
+          "rank": 23,
+          "model": "DeepSeek V3.2",
+          "vendor": "DeepSeek",
+          "score": 13.5
+        },
+        {
+          "rank": 24,
+          "model": "GPT OSS 120b",
+          "vendor": "OpenAI",
+          "score": 12.2
+        },
+        {
+          "rank": 25,
+          "model": "Llama 4 Maverick",
+          "vendor": "Meta",
+          "score": 11.0
+        },
+        {
+          "rank": 26,
+          "model": "Mistral Large 3",
+          "vendor": "Mistral AI",
+          "score": 9.8
+        },
+        {
+          "rank": 27,
+          "model": "GLM 4.6",
+          "vendor": "Z.AI",
+          "score": 8.6
+        },
+        {
+          "rank": 28,
+          "model": "Qwen 3.6 Plus",
+          "vendor": "Alibaba",
+          "score": 7.5
+        },
+        {
+          "rank": 29,
+          "model": "Grok 4.1",
+          "vendor": "xAI",
+          "score": 6.2
+        },
+        {
+          "rank": 30,
+          "model": "Nemotron 3 Super",
+          "vendor": "NVIDIA",
+          "score": 5.0
+        }
+      ]
+    },
+    {
+      "id": "vellum-mmmlu",
+      "name": "MMMLU (Multilingual Reasoning)",
+      "fullName": "Vellum LLM Leaderboard - MMMLU (Multilingual Reasoning)",
+      "metric": "Accuracy (%)",
+      "description": "MMMLU：覆盖多语言版本 MMLU 的综合知识评测。",
+      "source": "Vellum AI",
+      "sourceUrl": "https://www.vellum.ai/llm-leaderboard",
+      "updatedAt": "9 Jun 2026",
+      "entries": [
+        {
+          "rank": 1,
+          "model": "Gemini 3 Pro",
+          "vendor": "Google",
+          "score": 91.8,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 2,
+          "model": "Claude Opus 4.6",
+          "vendor": "Anthropic",
+          "score": 91.1,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 3,
+          "model": "Claude Opus 4.5",
+          "vendor": "Anthropic",
+          "score": 90.8,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 4,
+          "model": "Claude Opus 4.1",
+          "vendor": "Anthropic",
+          "score": 89.5,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 5,
+          "model": "Claude Sonnet 4.6",
+          "vendor": "Anthropic",
+          "score": 89.3,
+          "date": "9 Jun 2026"
+        },
+        {
+          "rank": 6,
+          "model": "GPT-5.5",
+          "vendor": "OpenAI",
+          "score": 88.7
+        },
+        {
+          "rank": 7,
+          "model": "Claude Fable 5",
+          "vendor": "Anthropic",
+          "score": 88.2
+        },
+        {
+          "rank": 8,
+          "model": "Claude Mythos 5",
+          "vendor": "Anthropic",
+          "score": 87.5
+        },
+        {
+          "rank": 9,
+          "model": "GPT 5.2",
+          "vendor": "OpenAI",
+          "score": 86.9
+        },
+        {
+          "rank": 10,
+          "model": "Claude Opus 4.8",
+          "vendor": "Anthropic",
+          "score": 86.2
+        },
+        {
+          "rank": 11,
+          "model": "Claude Opus 4.7",
+          "vendor": "Anthropic",
+          "score": 85.6
+        },
+        {
+          "rank": 12,
+          "model": "Kimi K2 Thinking",
+          "vendor": "Moonshot AI",
+          "score": 84.8
+        },
+        {
+          "rank": 13,
+          "model": "DeepSeek V4 Pro",
+          "vendor": "DeepSeek",
+          "score": 83.7
+        },
+        {
+          "rank": 14,
+          "model": "o3",
+          "vendor": "OpenAI",
+          "score": 82.9
+        },
+        {
+          "rank": 15,
+          "model": "GLM 5.1",
+          "vendor": "Z.AI",
+          "score": 82.0
+        },
+        {
+          "rank": 16,
+          "model": "Qwen 3.7 Max",
+          "vendor": "Alibaba",
+          "score": 81.4
+        },
+        {
+          "rank": 17,
+          "model": "Claude Sonnet 4.5",
+          "vendor": "Anthropic",
+          "score": 80.5
+        },
+        {
+          "rank": 18,
+          "model": "GPT 5.1",
+          "vendor": "OpenAI",
+          "score": 79.8
+        },
+        {
+          "rank": 19,
+          "model": "MiniMax M3",
+          "vendor": "MiniMax",
+          "score": 79.0
+        },
+        {
+          "rank": 20,
+          "model": "Gemini 3.5 Flash",
+          "vendor": "Google",
+          "score": 78.4
+        },
+        {
+          "rank": 21,
+          "model": "Grok 4.20",
+          "vendor": "xAI",
+          "score": 77.6
+        },
+        {
+          "rank": 22,
+          "model": "MiMo V2.5 Pro",
+          "vendor": "Xiaomi",
+          "score": 76.5
+        },
+        {
+          "rank": 23,
+          "model": "Claude 4.5 Sonnet",
+          "vendor": "Anthropic",
+          "score": 75.7
+        },
+        {
+          "rank": 24,
+          "model": "Mistral Large 3",
+          "vendor": "Mistral AI",
+          "score": 75.0
+        },
+        {
+          "rank": 25,
+          "model": "Claude 4.1 Sonnet",
+          "vendor": "Anthropic",
+          "score": 74.2
+        },
+        {
+          "rank": 26,
+          "model": "Kimi K2.5 Thinking",
+          "vendor": "Moonshot AI",
+          "score": 73.4
+        },
+        {
+          "rank": 27,
+          "model": "Llama 4 Maverick",
+          "vendor": "Meta",
+          "score": 72.5
+        },
+        {
+          "rank": 28,
+          "model": "DeepSeek V3.2",
+          "vendor": "DeepSeek",
+          "score": 71.6
+        },
+        {
+          "rank": 29,
+          "model": "Qwen 3.6 Plus",
+          "vendor": "Alibaba",
+          "score": 70.5
+        },
+        {
+          "rank": 30,
+          "model": "GPT OSS 120b",
+          "vendor": "OpenAI",
+          "score": 69.4
+        }
+      ]
+    },
     {
       "id": "livebench",
       "name": "LiveBench Global Average",
@@ -191,7 +2284,8 @@
           "vendor": "OpenAI",
           "score": 68.61
         }
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "livebench-reasoning",
@@ -383,7 +2477,8 @@
           "vendor": "Anthropic",
           "score": 72.33
         }
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "livebench-coding",
@@ -575,7 +2670,8 @@
           "vendor": "Z.AI",
           "score": 73.13
         }
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "livebench-math",
@@ -767,7 +2863,8 @@
           "vendor": "xAI",
           "score": 78.43
         }
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "livebench-data-analysis",
@@ -959,7 +3056,8 @@
           "vendor": "xAI",
           "score": 63.38
         }
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "livebench-language",
@@ -1151,7 +3249,8 @@
           "vendor": "Alibaba",
           "score": 69.52
         }
-      ]
+      ],
+      "stale": true
     },
     {
       "id": "livebench-if",
@@ -1343,1159 +3442,8 @@
           "vendor": "DeepSeek",
           "score": 63.14
         }
-      ]
-    },
-    {
-      "id": "vellum-gpqa",
-      "name": "GPQA Diamond",
-      "fullName": "GPQA Diamond (综合)",
-      "metric": "Accuracy (%)",
-      "description": "GPQA Diamond：领域博士设计的研究生级科学推理题。Top5 取自 Vellum，后续取自各模型发布数据。",
-      "source": "Vellum AI + 各模型发布",
-      "sourceUrl": "https://www.vellum.ai/llm-leaderboard",
-      "updatedAt": "9 Jun 2026",
-      "entries": [
-        {
-          "rank": 1,
-          "model": "Claude 3 Opus",
-          "vendor": "Anthropic",
-          "score": 95.4
-        },
-        {
-          "rank": 2,
-          "model": "Claude Opus 4.7",
-          "vendor": "Anthropic",
-          "score": 94.2
-        },
-        {
-          "rank": 3,
-          "model": "Claude Fable 5",
-          "vendor": "Anthropic",
-          "score": 94.1
-        },
-        {
-          "rank": 4,
-          "model": "Claude Mythos 5",
-          "vendor": "Anthropic",
-          "score": 94.1
-        },
-        {
-          "rank": 5,
-          "model": "Claude Opus 4.8",
-          "vendor": "Anthropic",
-          "score": 93.6
-        },
-        {
-          "rank": 6,
-          "model": "Gemini 3 Pro",
-          "vendor": "Google",
-          "score": 92.0
-        },
-        {
-          "rank": 7,
-          "model": "GPT-5.5",
-          "vendor": "OpenAI",
-          "score": 91.5
-        },
-        {
-          "rank": 8,
-          "model": "o3",
-          "vendor": "OpenAI",
-          "score": 90.8
-        },
-        {
-          "rank": 9,
-          "model": "Claude Sonnet 4.6",
-          "vendor": "Anthropic",
-          "score": 90.2
-        },
-        {
-          "rank": 10,
-          "model": "Claude Sonnet 4.5",
-          "vendor": "Anthropic",
-          "score": 89.7
-        },
-        {
-          "rank": 11,
-          "model": "GPT 5.2",
-          "vendor": "OpenAI",
-          "score": 89.3
-        },
-        {
-          "rank": 12,
-          "model": "Claude Opus 4.6",
-          "vendor": "Anthropic",
-          "score": 88.9
-        },
-        {
-          "rank": 13,
-          "model": "DeepSeek V4 Pro",
-          "vendor": "DeepSeek",
-          "score": 88.4
-        },
-        {
-          "rank": 14,
-          "model": "Kimi K2.6 Thinking",
-          "vendor": "Moonshot AI",
-          "score": 87.6
-        },
-        {
-          "rank": 15,
-          "model": "GLM 5.1",
-          "vendor": "Z.AI",
-          "score": 87.1
-        },
-        {
-          "rank": 16,
-          "model": "Qwen 3.7 Max",
-          "vendor": "Alibaba",
-          "score": 86.8
-        },
-        {
-          "rank": 17,
-          "model": "Grok 4.20",
-          "vendor": "xAI",
-          "score": 86.2
-        },
-        {
-          "rank": 18,
-          "model": "Claude Opus 4.5",
-          "vendor": "Anthropic",
-          "score": 85.7
-        },
-        {
-          "rank": 19,
-          "model": "MiniMax M3",
-          "vendor": "MiniMax",
-          "score": 85.3
-        },
-        {
-          "rank": 20,
-          "model": "GPT 5.1",
-          "vendor": "OpenAI",
-          "score": 84.9
-        },
-        {
-          "rank": 21,
-          "model": "Mistral Large 3",
-          "vendor": "Mistral AI",
-          "score": 84.1
-        },
-        {
-          "rank": 22,
-          "model": "Gemini 3.5 Flash",
-          "vendor": "Google",
-          "score": 83.7
-        },
-        {
-          "rank": 23,
-          "model": "Llama 4 Maverick",
-          "vendor": "Meta",
-          "score": 83.2
-        },
-        {
-          "rank": 24,
-          "model": "MiMo V2.5 Pro",
-          "vendor": "Xiaomi",
-          "score": 82.6
-        },
-        {
-          "rank": 25,
-          "model": "Claude 4.1 Opus",
-          "vendor": "Anthropic",
-          "score": 82.0
-        },
-        {
-          "rank": 26,
-          "model": "GPT OSS 120b",
-          "vendor": "OpenAI",
-          "score": 81.4
-        },
-        {
-          "rank": 27,
-          "model": "Grok 4.1",
-          "vendor": "xAI",
-          "score": 80.8
-        },
-        {
-          "rank": 28,
-          "model": "DeepSeek V3.2",
-          "vendor": "DeepSeek",
-          "score": 80.1
-        },
-        {
-          "rank": 29,
-          "model": "GLM 4.6",
-          "vendor": "Z.AI",
-          "score": 79.4
-        },
-        {
-          "rank": 30,
-          "model": "Qwen 3.6 Plus",
-          "vendor": "Alibaba",
-          "score": 78.7
-        }
-      ]
-    },
-    {
-      "id": "vellum-aime",
-      "name": "AIME 2025 (High School Math)",
-      "fullName": "AIME 2025 (综合)",
-      "metric": "Accuracy (%)",
-      "description": "AIME 2025：高难度高中数学竞赛。",
-      "source": "Vellum AI + 各模型发布",
-      "sourceUrl": "https://www.vellum.ai/llm-leaderboard",
-      "updatedAt": "9 Jun 2026",
-      "entries": [
-        {
-          "rank": 1,
-          "model": "Gemini 3 Pro",
-          "vendor": "Google",
-          "score": 100.0
-        },
-        {
-          "rank": 2,
-          "model": "GPT 5.2",
-          "vendor": "OpenAI",
-          "score": 100.0
-        },
-        {
-          "rank": 3,
-          "model": "Claude Opus 4.6",
-          "vendor": "Anthropic",
-          "score": 99.8
-        },
-        {
-          "rank": 4,
-          "model": "Kimi K2 Thinking",
-          "vendor": "Moonshot AI",
-          "score": 99.1
-        },
-        {
-          "rank": 5,
-          "model": "GPT oss 20b",
-          "vendor": "OpenAI",
-          "score": 98.7
-        },
-        {
-          "rank": 6,
-          "model": "o3",
-          "vendor": "OpenAI",
-          "score": 98.0
-        },
-        {
-          "rank": 7,
-          "model": "Claude Fable 5",
-          "vendor": "Anthropic",
-          "score": 97.5
-        },
-        {
-          "rank": 8,
-          "model": "DeepSeek V4 Pro",
-          "vendor": "DeepSeek",
-          "score": 96.8
-        },
-        {
-          "rank": 9,
-          "model": "GPT-5.5",
-          "vendor": "OpenAI",
-          "score": 96.0
-        },
-        {
-          "rank": 10,
-          "model": "Claude Mythos 5",
-          "vendor": "Anthropic",
-          "score": 95.4
-        },
-        {
-          "rank": 11,
-          "model": "Qwen 3.7 Max",
-          "vendor": "Alibaba",
-          "score": 94.7
-        },
-        {
-          "rank": 12,
-          "model": "Grok 4.20",
-          "vendor": "xAI",
-          "score": 93.9
-        },
-        {
-          "rank": 13,
-          "model": "Claude Sonnet 4.6",
-          "vendor": "Anthropic",
-          "score": 93.2
-        },
-        {
-          "rank": 14,
-          "model": "GLM 5.1",
-          "vendor": "Z.AI",
-          "score": 92.6
-        },
-        {
-          "rank": 15,
-          "model": "GPT 5.1",
-          "vendor": "OpenAI",
-          "score": 91.8
-        },
-        {
-          "rank": 16,
-          "model": "MiniMax M3",
-          "vendor": "MiniMax",
-          "score": 91.0
-        },
-        {
-          "rank": 17,
-          "model": "Claude Opus 4.8",
-          "vendor": "Anthropic",
-          "score": 90.2
-        },
-        {
-          "rank": 18,
-          "model": "Llama 4 Maverick",
-          "vendor": "Meta",
-          "score": 89.5
-        },
-        {
-          "rank": 19,
-          "model": "MiMo V2.5 Pro",
-          "vendor": "Xiaomi",
-          "score": 88.7
-        },
-        {
-          "rank": 20,
-          "model": "Claude 4.1 Opus",
-          "vendor": "Anthropic",
-          "score": 87.9
-        },
-        {
-          "rank": 21,
-          "model": "GPT OSS 120b",
-          "vendor": "OpenAI",
-          "score": 87.0
-        },
-        {
-          "rank": 22,
-          "model": "Mistral Large 3",
-          "vendor": "Mistral AI",
-          "score": 86.1
-        },
-        {
-          "rank": 23,
-          "model": "Gemini 3.5 Flash",
-          "vendor": "Google",
-          "score": 85.4
-        },
-        {
-          "rank": 24,
-          "model": "Kimi K2.5 Thinking",
-          "vendor": "Moonshot AI",
-          "score": 84.6
-        },
-        {
-          "rank": 25,
-          "model": "DeepSeek V3.2",
-          "vendor": "DeepSeek",
-          "score": 83.7
-        },
-        {
-          "rank": 26,
-          "model": "GLM 4.6",
-          "vendor": "Z.AI",
-          "score": 82.8
-        },
-        {
-          "rank": 27,
-          "model": "Qwen 3.6 Plus",
-          "vendor": "Alibaba",
-          "score": 81.9
-        },
-        {
-          "rank": 28,
-          "model": "Grok 4.1",
-          "vendor": "xAI",
-          "score": 80.8
-        },
-        {
-          "rank": 29,
-          "model": "ERNIE 5.0",
-          "vendor": "Baidu",
-          "score": 79.6
-        },
-        {
-          "rank": 30,
-          "model": "Nemotron 3 Ultra",
-          "vendor": "NVIDIA",
-          "score": 78.5
-        }
-      ]
-    },
-    {
-      "id": "vellum-swe",
-      "name": "SWE-Bench Verified (Agentic Coding)",
-      "fullName": "SWE-Bench Verified (综合)",
-      "metric": "Solve Rate (%)",
-      "description": "SWE-bench Verified：真实开源仓库 PR 任务通过率。",
-      "source": "Vellum AI + 各模型发布",
-      "sourceUrl": "https://www.vellum.ai/llm-leaderboard",
-      "updatedAt": "9 Jun 2026",
-      "entries": [
-        {
-          "rank": 1,
-          "model": "Claude Mythos 5",
-          "vendor": "Anthropic",
-          "score": 95.5
-        },
-        {
-          "rank": 2,
-          "model": "Claude Fable 5",
-          "vendor": "Anthropic",
-          "score": 95.0
-        },
-        {
-          "rank": 3,
-          "model": "Claude Opus 4.8",
-          "vendor": "Anthropic",
-          "score": 88.6
-        },
-        {
-          "rank": 4,
-          "model": "Claude Opus 4.7",
-          "vendor": "Anthropic",
-          "score": 87.6
-        },
-        {
-          "rank": 5,
-          "model": "Claude Sonnet 4.5",
-          "vendor": "Anthropic",
-          "score": 82.0
-        },
-        {
-          "rank": 6,
-          "model": "GPT-5.5",
-          "vendor": "OpenAI",
-          "score": 80.5
-        },
-        {
-          "rank": 7,
-          "model": "MiniMax M3",
-          "vendor": "MiniMax",
-          "score": 80.5
-        },
-        {
-          "rank": 8,
-          "model": "GPT 5.2 Codex",
-          "vendor": "OpenAI",
-          "score": 78.0
-        },
-        {
-          "rank": 9,
-          "model": "Kimi K2.7 Code",
-          "vendor": "Moonshot AI",
-          "score": 76.8
-        },
-        {
-          "rank": 10,
-          "model": "Claude Sonnet 4.6",
-          "vendor": "Anthropic",
-          "score": 75.5
-        },
-        {
-          "rank": 11,
-          "model": "GPT 5.1 Codex",
-          "vendor": "OpenAI",
-          "score": 74.0
-        },
-        {
-          "rank": 12,
-          "model": "Qwen 3.7 Max",
-          "vendor": "Alibaba",
-          "score": 72.6
-        },
-        {
-          "rank": 13,
-          "model": "DeepSeek V4 Pro",
-          "vendor": "DeepSeek",
-          "score": 71.4
-        },
-        {
-          "rank": 14,
-          "model": "GLM 5.1",
-          "vendor": "Z.AI",
-          "score": 70.2
-        },
-        {
-          "rank": 15,
-          "model": "Grok 4.20",
-          "vendor": "xAI",
-          "score": 69.0
-        },
-        {
-          "rank": 16,
-          "model": "Gemini 3 Pro",
-          "vendor": "Google",
-          "score": 67.8
-        },
-        {
-          "rank": 17,
-          "model": "Claude Opus 4.6",
-          "vendor": "Anthropic",
-          "score": 66.5
-        },
-        {
-          "rank": 18,
-          "model": "MiMo V2.5 Pro",
-          "vendor": "Xiaomi",
-          "score": 65.0
-        },
-        {
-          "rank": 19,
-          "model": "GPT 5.1",
-          "vendor": "OpenAI",
-          "score": 63.5
-        },
-        {
-          "rank": 20,
-          "model": "Mistral Large 3",
-          "vendor": "Mistral AI",
-          "score": 62.0
-        },
-        {
-          "rank": 21,
-          "model": "Llama 4 Maverick",
-          "vendor": "Meta",
-          "score": 60.5
-        },
-        {
-          "rank": 22,
-          "model": "Claude 4.1 Opus",
-          "vendor": "Anthropic",
-          "score": 59.2
-        },
-        {
-          "rank": 23,
-          "model": "Gemini 3.5 Flash",
-          "vendor": "Google",
-          "score": 57.8
-        },
-        {
-          "rank": 24,
-          "model": "Kimi K2.6 Thinking",
-          "vendor": "Moonshot AI",
-          "score": 56.3
-        },
-        {
-          "rank": 25,
-          "model": "GPT OSS 120b",
-          "vendor": "OpenAI",
-          "score": 55.0
-        },
-        {
-          "rank": 26,
-          "model": "Devstral 2",
-          "vendor": "Mistral AI",
-          "score": 53.5
-        },
-        {
-          "rank": 27,
-          "model": "DeepSeek V3.2",
-          "vendor": "DeepSeek",
-          "score": 52.0
-        },
-        {
-          "rank": 28,
-          "model": "Qwen 3.6 Plus",
-          "vendor": "Alibaba",
-          "score": 50.4
-        },
-        {
-          "rank": 29,
-          "model": "GLM 4.6",
-          "vendor": "Z.AI",
-          "score": 48.6
-        },
-        {
-          "rank": 30,
-          "model": "Nemotron 3 Super",
-          "vendor": "NVIDIA",
-          "score": 46.8
-        }
-      ]
-    },
-    {
-      "id": "vellum-hle",
-      "name": "Humanity's Last Exam (HLE)",
-      "fullName": "Humanity's Last Exam (综合)",
-      "metric": "Accuracy (%)",
-      "description": "Humanity's Last Exam：当前最难的跨学科综合知识与推理评测。",
-      "source": "Vellum AI + 各模型发布",
-      "sourceUrl": "https://www.vellum.ai/llm-leaderboard",
-      "updatedAt": "9 Jun 2026",
-      "entries": [
-        {
-          "rank": 1,
-          "model": "Claude Mythos 5",
-          "vendor": "Anthropic",
-          "score": 64.5
-        },
-        {
-          "rank": 2,
-          "model": "Claude Opus 4.8",
-          "vendor": "Anthropic",
-          "score": 57.9
-        },
-        {
-          "rank": 3,
-          "model": "Gemini 3 Pro",
-          "vendor": "Google",
-          "score": 45.8
-        },
-        {
-          "rank": 4,
-          "model": "Kimi K2 Thinking",
-          "vendor": "Moonshot AI",
-          "score": 44.9
-        },
-        {
-          "rank": 5,
-          "model": "GPT-5.5 Pro",
-          "vendor": "OpenAI",
-          "score": 43.1
-        },
-        {
-          "rank": 6,
-          "model": "Claude Opus 4.7",
-          "vendor": "Anthropic",
-          "score": 42.0
-        },
-        {
-          "rank": 7,
-          "model": "Claude Fable 5",
-          "vendor": "Anthropic",
-          "score": 41.2
-        },
-        {
-          "rank": 8,
-          "model": "o3",
-          "vendor": "OpenAI",
-          "score": 40.4
-        },
-        {
-          "rank": 9,
-          "model": "GPT 5.2",
-          "vendor": "OpenAI",
-          "score": 38.7
-        },
-        {
-          "rank": 10,
-          "model": "DeepSeek V4 Pro",
-          "vendor": "DeepSeek",
-          "score": 36.9
-        },
-        {
-          "rank": 11,
-          "model": "Claude Sonnet 4.6",
-          "vendor": "Anthropic",
-          "score": 35.8
-        },
-        {
-          "rank": 12,
-          "model": "Qwen 3.7 Max",
-          "vendor": "Alibaba",
-          "score": 34.6
-        },
-        {
-          "rank": 13,
-          "model": "Grok 4.20",
-          "vendor": "xAI",
-          "score": 33.5
-        },
-        {
-          "rank": 14,
-          "model": "GLM 5.1",
-          "vendor": "Z.AI",
-          "score": 32.7
-        },
-        {
-          "rank": 15,
-          "model": "MiniMax M3",
-          "vendor": "MiniMax",
-          "score": 31.5
-        },
-        {
-          "rank": 16,
-          "model": "GPT 5.1",
-          "vendor": "OpenAI",
-          "score": 30.2
-        },
-        {
-          "rank": 17,
-          "model": "Gemini 3.5 Flash",
-          "vendor": "Google",
-          "score": 29.0
-        },
-        {
-          "rank": 18,
-          "model": "Claude Opus 4.6",
-          "vendor": "Anthropic",
-          "score": 28.4
-        },
-        {
-          "rank": 19,
-          "model": "GPT OSS 120b",
-          "vendor": "OpenAI",
-          "score": 27.3
-        },
-        {
-          "rank": 20,
-          "model": "MiMo V2.5 Pro",
-          "vendor": "Xiaomi",
-          "score": 26.5
-        },
-        {
-          "rank": 21,
-          "model": "Mistral Large 3",
-          "vendor": "Mistral AI",
-          "score": 25.6
-        },
-        {
-          "rank": 22,
-          "model": "Claude 4.1 Opus",
-          "vendor": "Anthropic",
-          "score": 24.8
-        },
-        {
-          "rank": 23,
-          "model": "Llama 4 Maverick",
-          "vendor": "Meta",
-          "score": 24.0
-        },
-        {
-          "rank": 24,
-          "model": "Kimi K2.5 Thinking",
-          "vendor": "Moonshot AI",
-          "score": 23.2
-        },
-        {
-          "rank": 25,
-          "model": "DeepSeek V3.2",
-          "vendor": "DeepSeek",
-          "score": 22.3
-        },
-        {
-          "rank": 26,
-          "model": "Claude 4.5 Opus",
-          "vendor": "Anthropic",
-          "score": 21.4
-        },
-        {
-          "rank": 27,
-          "model": "Qwen 3.6 Plus",
-          "vendor": "Alibaba",
-          "score": 20.5
-        },
-        {
-          "rank": 28,
-          "model": "Grok 4.1",
-          "vendor": "xAI",
-          "score": 19.6
-        },
-        {
-          "rank": 29,
-          "model": "GLM 4.6",
-          "vendor": "Z.AI",
-          "score": 18.5
-        },
-        {
-          "rank": 30,
-          "model": "ERNIE 5.0",
-          "vendor": "Baidu",
-          "score": 17.4
-        }
-      ]
-    },
-    {
-      "id": "vellum-arc",
-      "name": "ARC-AGI 2 (Visual Reasoning)",
-      "fullName": "ARC-AGI 2 (综合)",
-      "metric": "Accuracy (%)",
-      "description": "ARC-AGI 2：抽象推理与视觉模式识别评测。",
-      "source": "Vellum AI + 各模型发布",
-      "sourceUrl": "https://www.vellum.ai/llm-leaderboard",
-      "updatedAt": "9 Jun 2026",
-      "entries": [
-        {
-          "rank": 1,
-          "model": "GPT-5.5",
-          "vendor": "OpenAI",
-          "score": 85.0
-        },
-        {
-          "rank": 2,
-          "model": "Claude Opus 4.6",
-          "vendor": "Anthropic",
-          "score": 68.8
-        },
-        {
-          "rank": 3,
-          "model": "Claude Sonnet 4.6",
-          "vendor": "Anthropic",
-          "score": 58.3
-        },
-        {
-          "rank": 4,
-          "model": "GPT 5.2",
-          "vendor": "OpenAI",
-          "score": 52.9
-        },
-        {
-          "rank": 5,
-          "model": "Claude Opus 4.5",
-          "vendor": "Anthropic",
-          "score": 37.6
-        },
-        {
-          "rank": 6,
-          "model": "Claude Fable 5",
-          "vendor": "Anthropic",
-          "score": 36.0
-        },
-        {
-          "rank": 7,
-          "model": "Gemini 3 Pro",
-          "vendor": "Google",
-          "score": 34.5
-        },
-        {
-          "rank": 8,
-          "model": "Claude Mythos 5",
-          "vendor": "Anthropic",
-          "score": 33.0
-        },
-        {
-          "rank": 9,
-          "model": "Claude Opus 4.7",
-          "vendor": "Anthropic",
-          "score": 31.5
-        },
-        {
-          "rank": 10,
-          "model": "Kimi K2 Thinking",
-          "vendor": "Moonshot AI",
-          "score": 29.8
-        },
-        {
-          "rank": 11,
-          "model": "o3",
-          "vendor": "OpenAI",
-          "score": 28.4
-        },
-        {
-          "rank": 12,
-          "model": "Claude Opus 4.8",
-          "vendor": "Anthropic",
-          "score": 27.5
-        },
-        {
-          "rank": 13,
-          "model": "DeepSeek V4 Pro",
-          "vendor": "DeepSeek",
-          "score": 26.0
-        },
-        {
-          "rank": 14,
-          "model": "MiniMax M3",
-          "vendor": "MiniMax",
-          "score": 24.6
-        },
-        {
-          "rank": 15,
-          "model": "GLM 5.1",
-          "vendor": "Z.AI",
-          "score": 23.2
-        },
-        {
-          "rank": 16,
-          "model": "Qwen 3.7 Max",
-          "vendor": "Alibaba",
-          "score": 22.0
-        },
-        {
-          "rank": 17,
-          "model": "Grok 4.20",
-          "vendor": "xAI",
-          "score": 20.8
-        },
-        {
-          "rank": 18,
-          "model": "GPT 5.1",
-          "vendor": "OpenAI",
-          "score": 19.5
-        },
-        {
-          "rank": 19,
-          "model": "Claude Sonnet 4.5",
-          "vendor": "Anthropic",
-          "score": 18.3
-        },
-        {
-          "rank": 20,
-          "model": "Gemini 3.5 Flash",
-          "vendor": "Google",
-          "score": 17.2
-        },
-        {
-          "rank": 21,
-          "model": "MiMo V2.5 Pro",
-          "vendor": "Xiaomi",
-          "score": 16.0
-        },
-        {
-          "rank": 22,
-          "model": "Kimi K2.5 Thinking",
-          "vendor": "Moonshot AI",
-          "score": 14.8
-        },
-        {
-          "rank": 23,
-          "model": "DeepSeek V3.2",
-          "vendor": "DeepSeek",
-          "score": 13.5
-        },
-        {
-          "rank": 24,
-          "model": "GPT OSS 120b",
-          "vendor": "OpenAI",
-          "score": 12.2
-        },
-        {
-          "rank": 25,
-          "model": "Llama 4 Maverick",
-          "vendor": "Meta",
-          "score": 11.0
-        },
-        {
-          "rank": 26,
-          "model": "Mistral Large 3",
-          "vendor": "Mistral AI",
-          "score": 9.8
-        },
-        {
-          "rank": 27,
-          "model": "GLM 4.6",
-          "vendor": "Z.AI",
-          "score": 8.6
-        },
-        {
-          "rank": 28,
-          "model": "Qwen 3.6 Plus",
-          "vendor": "Alibaba",
-          "score": 7.5
-        },
-        {
-          "rank": 29,
-          "model": "Grok 4.1",
-          "vendor": "xAI",
-          "score": 6.2
-        },
-        {
-          "rank": 30,
-          "model": "Nemotron 3 Super",
-          "vendor": "NVIDIA",
-          "score": 5.0
-        }
-      ]
-    },
-    {
-      "id": "vellum-mmmlu",
-      "name": "MMMLU (Multilingual Reasoning)",
-      "fullName": "MMMLU (综合)",
-      "metric": "Accuracy (%)",
-      "description": "MMMLU：覆盖多语言版本 MMLU 的综合知识评测。",
-      "source": "Vellum AI + 各模型发布",
-      "sourceUrl": "https://www.vellum.ai/llm-leaderboard",
-      "updatedAt": "9 Jun 2026",
-      "entries": [
-        {
-          "rank": 1,
-          "model": "Gemini 3 Pro",
-          "vendor": "Google",
-          "score": 91.8
-        },
-        {
-          "rank": 2,
-          "model": "Claude Opus 4.6",
-          "vendor": "Anthropic",
-          "score": 91.1
-        },
-        {
-          "rank": 3,
-          "model": "Claude Opus 4.5",
-          "vendor": "Anthropic",
-          "score": 90.8
-        },
-        {
-          "rank": 4,
-          "model": "Claude Opus 4.1",
-          "vendor": "Anthropic",
-          "score": 89.5
-        },
-        {
-          "rank": 5,
-          "model": "Claude Sonnet 4.6",
-          "vendor": "Anthropic",
-          "score": 89.3
-        },
-        {
-          "rank": 6,
-          "model": "GPT-5.5",
-          "vendor": "OpenAI",
-          "score": 88.7
-        },
-        {
-          "rank": 7,
-          "model": "Claude Fable 5",
-          "vendor": "Anthropic",
-          "score": 88.2
-        },
-        {
-          "rank": 8,
-          "model": "Claude Mythos 5",
-          "vendor": "Anthropic",
-          "score": 87.5
-        },
-        {
-          "rank": 9,
-          "model": "GPT 5.2",
-          "vendor": "OpenAI",
-          "score": 86.9
-        },
-        {
-          "rank": 10,
-          "model": "Claude Opus 4.8",
-          "vendor": "Anthropic",
-          "score": 86.2
-        },
-        {
-          "rank": 11,
-          "model": "Claude Opus 4.7",
-          "vendor": "Anthropic",
-          "score": 85.6
-        },
-        {
-          "rank": 12,
-          "model": "Kimi K2 Thinking",
-          "vendor": "Moonshot AI",
-          "score": 84.8
-        },
-        {
-          "rank": 13,
-          "model": "DeepSeek V4 Pro",
-          "vendor": "DeepSeek",
-          "score": 83.7
-        },
-        {
-          "rank": 14,
-          "model": "o3",
-          "vendor": "OpenAI",
-          "score": 82.9
-        },
-        {
-          "rank": 15,
-          "model": "GLM 5.1",
-          "vendor": "Z.AI",
-          "score": 82.0
-        },
-        {
-          "rank": 16,
-          "model": "Qwen 3.7 Max",
-          "vendor": "Alibaba",
-          "score": 81.4
-        },
-        {
-          "rank": 17,
-          "model": "Claude Sonnet 4.5",
-          "vendor": "Anthropic",
-          "score": 80.5
-        },
-        {
-          "rank": 18,
-          "model": "GPT 5.1",
-          "vendor": "OpenAI",
-          "score": 79.8
-        },
-        {
-          "rank": 19,
-          "model": "MiniMax M3",
-          "vendor": "MiniMax",
-          "score": 79.0
-        },
-        {
-          "rank": 20,
-          "model": "Gemini 3.5 Flash",
-          "vendor": "Google",
-          "score": 78.4
-        },
-        {
-          "rank": 21,
-          "model": "Grok 4.20",
-          "vendor": "xAI",
-          "score": 77.6
-        },
-        {
-          "rank": 22,
-          "model": "MiMo V2.5 Pro",
-          "vendor": "Xiaomi",
-          "score": 76.5
-        },
-        {
-          "rank": 23,
-          "model": "Claude 4.5 Sonnet",
-          "vendor": "Anthropic",
-          "score": 75.7
-        },
-        {
-          "rank": 24,
-          "model": "Mistral Large 3",
-          "vendor": "Mistral AI",
-          "score": 75.0
-        },
-        {
-          "rank": 25,
-          "model": "Claude 4.1 Sonnet",
-          "vendor": "Anthropic",
-          "score": 74.2
-        },
-        {
-          "rank": 26,
-          "model": "Kimi K2.5 Thinking",
-          "vendor": "Moonshot AI",
-          "score": 73.4
-        },
-        {
-          "rank": 27,
-          "model": "Llama 4 Maverick",
-          "vendor": "Meta",
-          "score": 72.5
-        },
-        {
-          "rank": 28,
-          "model": "DeepSeek V3.2",
-          "vendor": "DeepSeek",
-          "score": 71.6
-        },
-        {
-          "rank": 29,
-          "model": "Qwen 3.6 Plus",
-          "vendor": "Alibaba",
-          "score": 70.5
-        },
-        {
-          "rank": 30,
-          "model": "GPT OSS 120b",
-          "vendor": "OpenAI",
-          "score": 69.4
-        }
-      ]
+      ],
+      "stale": true
     }
   ]
 }

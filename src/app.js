@@ -17,43 +17,37 @@
   };
 
   async function loadData() {
-    try {
-      const payload = await BrowserFetcher.fetchAll();
-      if (payload.benchmarks && payload.benchmarks.length > 0) {
-        state.benchmarks = payload.benchmarks;
-        state.generatedAt = payload.generatedAt;
-        state.sources = payload.sources;
-        state.dataSource = 'browser';
+    const candidates = [
+      { url: "api/leaderboard", type: "api" },
+      { url: "data/benchmarks.json", type: "static" }
+    ];
+    let lastErr = null;
+    for (const c of candidates) {
+      try {
+        const res = await fetch(c.url + "?_=" + Date.now(), {
+          cache: "no-cache",
+          headers: c.type === "api" ? { "accept": "application/json" } : {}
+        });
+        if (!res.ok) throw new Error("HTTP " + res.status + " for " + c.url);
+        const json = await res.json();
+        state.benchmarks = Array.isArray(json.benchmarks) ? json.benchmarks : [];
+        state.generatedAt = json.generatedAt || null;
+        state.sources = Array.isArray(json.sources) ? json.sources : [];
+        state.dataSource = c.type;
         renderHeader();
+        if (state.benchmarks.length === 0) {
+          renderEmpty("数据为空");
+          return;
+        }
         state.activeId = state.benchmarks[0].id;
         renderNav();
         renderBenchmark();
         return;
+      } catch (err) {
+        lastErr = err;
       }
-    } catch (e) {
-      console.warn('[App] Browser fetch failed, trying static fallback:', e);
     }
-
-    try {
-      const res = await fetch("data/benchmarks.json?_=" + Date.now(), { cache: "no-cache" });
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      const json = await res.json();
-      state.benchmarks = Array.isArray(json.benchmarks) ? json.benchmarks : [];
-      state.generatedAt = json.generatedAt || null;
-      state.sources = Array.isArray(json.sources) ? json.sources : [];
-      state.dataSource = 'static';
-      renderHeader();
-      if (state.benchmarks.length === 0) {
-        renderEmpty("数据为空");
-        return;
-      }
-      state.activeId = state.benchmarks[0].id;
-      renderNav();
-      renderBenchmark();
-      return;
-    } catch (err) {
-      console.error("加载数据失败:", err);
-    }
+    console.error("加载数据失败:", lastErr);
     renderEmpty("加载数据失败，请刷新重试");
   }
 

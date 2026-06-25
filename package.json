@@ -6,5 +6,8 @@
   "scripts": {
     "fetch": "python scripts/fetch_leaderboards.py",
     "serve": "python -m http.server 8765"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }

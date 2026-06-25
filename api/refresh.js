@@ -1,23 +1,16 @@
-/**
- * Refresh API fallback：返回静态数据的摘要信息
- */
-const fs = require('fs');
-const path = require('path');
+const { buildPayload } = require('../lib/fetcher');
 
-module.exports = (req, res) => {
+module.exports = async (req, res) => {
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
   res.setHeader('Cache-Control', 'no-store');
 
-  const dataPath = path.join(__dirname, '..', 'data', 'benchmarks.json');
-
   try {
-    const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+    const payload = await buildPayload();
     res.status(200).json({
       ok: true,
-      generatedAt: data.generatedAt || null,
-      sources: data.sources || [],
-      benchmarkCount: (data.benchmarks || []).length,
-      note: 'static fallback - browser fetching unavailable',
+      generatedAt: payload.generatedAt,
+      sources: payload.sources,
+      benchmarkCount: (payload.benchmarks || []).length,
     });
   } catch (exc) {
     res.status(500).json({ ok: false, error: exc.message });
