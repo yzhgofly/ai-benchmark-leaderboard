@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T01:51:38+00:00",
+  "generatedAt": "2026-07-18T09:17:41+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -482,14 +482,14 @@
           "rank": 1,
           "model": "Mercury 2",
           "vendor": "Inception",
-          "score": 805.0,
+          "score": 781.0,
           "date": "2026-07-18"
         },
         {
           "rank": 2,
           "model": "Granite 4.0 H Small",
           "vendor": "IBM",
-          "score": 411.0,
+          "score": 407.0,
           "date": "2026-07-18"
         },
         {
@@ -503,21 +503,21 @@
           "rank": 4,
           "model": "Step 3.7 Flash",
           "vendor": "StepFun",
-          "score": 376.0,
+          "score": 377.0,
           "date": "2026-07-18"
         },
         {
           "rank": 5,
           "model": "HyperNova 60B 2605",
           "vendor": "Multiverse Computing",
-          "score": 345.0,
+          "score": 348.0,
           "date": "2026-07-18"
         },
         {
           "rank": 6,
           "model": "LFM2.5-8B-A1B",
           "vendor": "Liquid AI",
-          "score": 331.0,
+          "score": 332.0,
           "date": "2026-07-18"
         },
         {
@@ -531,42 +531,42 @@
           "rank": 8,
           "model": "gpt-oss-120b (low)",
           "vendor": "OpenAI",
-          "score": 312.0,
+          "score": 310.0,
           "date": "2026-07-18"
         },
         {
           "rank": 9,
+          "model": "Nova Micro",
+          "vendor": "Amazon",
+          "score": 291.0,
+          "date": "2026-07-18"
+        },
+        {
+          "rank": 10,
           "model": "Gemini 3.1 Flash-Lite",
           "vendor": "Google",
           "score": 290.0,
           "date": "2026-07-18"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "model": "Step 3.5 Flash 2603",
           "vendor": "StepFun",
-          "score": 288.0,
-          "date": "2026-07-18"
-        },
-        {
-          "rank": 11,
-          "model": "Nova Micro",
-          "vendor": "Amazon",
-          "score": 284.0,
+          "score": 278.0,
           "date": "2026-07-18"
         },
         {
           "rank": 12,
           "model": "gpt-oss-120b (high)",
           "vendor": "OpenAI",
-          "score": 271.0,
+          "score": 273.0,
           "date": "2026-07-18"
         },
         {
           "rank": 13,
           "model": "NVIDIA Nemotron Nano 12B v2 VL",
           "vendor": "NVIDIA",
-          "score": 264.0,
+          "score": 253.0,
           "date": "2026-07-18"
         },
         {
@@ -585,15 +585,15 @@
         },
         {
           "rank": 16,
-          "model": "NVIDIA Nemotron Nano 12B v2 VL",
-          "vendor": "NVIDIA",
-          "score": 210.0,
+          "model": "gpt-oss-20b (high)",
+          "vendor": "OpenAI",
+          "score": 209.0,
           "date": "2026-07-18"
         },
         {
           "rank": 17,
-          "model": "gpt-oss-20b (high)",
-          "vendor": "OpenAI",
+          "model": "NVIDIA Nemotron Nano 12B v2 VL",
+          "vendor": "NVIDIA",
           "score": 209.0,
           "date": "2026-07-18"
         },
@@ -615,49 +615,49 @@
           "rank": 20,
           "model": "GPT-5.6 Luna (max)",
           "vendor": "OpenAI",
-          "score": 187.0,
+          "score": 186.0,
           "date": "2026-07-18"
         },
         {
           "rank": 21,
           "model": "Command A+",
           "vendor": "Cohere",
-          "score": 185.0,
+          "score": 186.0,
           "date": "2026-07-18"
         },
         {
           "rank": 22,
           "model": "Qwen3 Next 80B A3B",
           "vendor": "Alibaba",
-          "score": 184.0,
+          "score": 182.0,
           "date": "2026-07-18"
         },
         {
           "rank": 23,
           "model": "Nemotron 3 Ultra",
           "vendor": "NVIDIA",
-          "score": 183.0,
+          "score": 181.0,
           "date": "2026-07-18"
         },
         {
           "rank": 24,
           "model": "Qwen3 Next 80B A3B",
           "vendor": "Alibaba",
-          "score": 182.0,
+          "score": 181.0,
           "date": "2026-07-18"
         },
         {
           "rank": 25,
-          "model": "Ministral 3 3B",
-          "vendor": "Mistral",
-          "score": 180.0,
+          "model": "GPT-5.6 Luna (Non-reasoning)",
+          "vendor": "OpenAI",
+          "score": 178.0,
           "date": "2026-07-18"
         },
         {
           "rank": 26,
-          "model": "GPT-5.6 Luna (Non-reasoning)",
-          "vendor": "OpenAI",
-          "score": 178.0,
+          "model": "Ministral 3 3B",
+          "vendor": "Mistral",
+          "score": 177.0,
           "date": "2026-07-18"
         },
         {
