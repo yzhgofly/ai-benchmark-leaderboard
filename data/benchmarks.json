@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T02:18:41+00:00",
+  "generatedAt": "2026-08-07T08:49:58+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -260,63 +260,63 @@
           "rank": 1,
           "model": "Celeris-1",
           "vendor": "Celeris",
-          "score": 1916.0,
+          "score": 1894.0,
           "date": "2026-08-07"
         },
         {
           "rank": 2,
           "model": "Mercury 2",
           "vendor": "Inception",
-          "score": 816.0,
+          "score": 786.0,
           "date": "2026-08-07"
         },
         {
           "rank": 3,
           "model": "LFM2.5-VL-1.6B",
           "vendor": "Liquid AI",
-          "score": 450.0,
+          "score": 439.0,
           "date": "2026-08-07"
         },
         {
           "rank": 4,
           "model": "HyperNova 60B 2605",
           "vendor": "Multiverse Computing",
-          "score": 392.0,
+          "score": 401.0,
           "date": "2026-08-07"
         },
         {
           "rank": 5,
           "model": "Gemini 3.5 Flash-Lite",
           "vendor": "Google",
-          "score": 376.0,
+          "score": 380.0,
           "date": "2026-08-07"
         },
         {
           "rank": 6,
           "model": "Step 3.7 Flash",
           "vendor": "StepFun",
-          "score": 372.0,
+          "score": 364.0,
           "date": "2026-08-07"
         },
         {
           "rank": 7,
-          "model": "Gemini 3.1 Flash-Lite",
-          "vendor": "Google",
-          "score": 341.0,
+          "model": "LFM2.5-8B-A1B",
+          "vendor": "Liquid AI",
+          "score": 338.0,
           "date": "2026-08-07"
         },
         {
           "rank": 8,
-          "model": "LFM2.5-8B-A1B",
-          "vendor": "Liquid AI",
-          "score": 335.0,
+          "model": "Ling-3.0-flash",
+          "vendor": "InclusionAI",
+          "score": 330.0,
           "date": "2026-08-07"
         },
         {
           "rank": 9,
-          "model": "Ling-3.0-flash",
-          "vendor": "InclusionAI",
-          "score": 333.0,
+          "model": "Gemini 3.1 Flash-Lite",
+          "vendor": "Google",
+          "score": 327.0,
           "date": "2026-08-07"
         },
         {
@@ -335,50 +335,50 @@
         },
         {
           "rank": 12,
-          "model": "Qwen3.5 Omni Flash",
-          "vendor": "Alibaba",
-          "score": 252.0,
+          "model": "NVIDIA Nemotron 3 Nano",
+          "vendor": "NVIDIA",
+          "score": 253.0,
           "date": "2026-08-07"
         },
         {
           "rank": 13,
-          "model": "NVIDIA Nemotron 3 Nano",
-          "vendor": "NVIDIA",
-          "score": 248.0,
+          "model": "Qwen3.5 Omni Flash",
+          "vendor": "Alibaba",
+          "score": 245.0,
           "date": "2026-08-07"
         },
         {
           "rank": 14,
           "model": "Muse Spark 1.1 (xhigh)",
           "vendor": "Meta",
-          "score": 221.0,
+          "score": 213.0,
           "date": "2026-08-07"
         },
         {
           "rank": 15,
           "model": "Gemini 3.6 Flash",
           "vendor": "Google",
-          "score": 219.0,
+          "score": 213.0,
           "date": "2026-08-07"
         },
         {
           "rank": 16,
           "model": "Ministral 3 3B",
           "vendor": "Mistral",
-          "score": 206.0,
+          "score": 212.0,
           "date": "2026-08-07"
         },
         {
           "rank": 17,
-          "model": "Qwen3 Next 80B A3B",
-          "vendor": "Alibaba",
-          "score": 205.0,
+          "model": "Trinity Large Thinking",
+          "vendor": "Arcee AI",
+          "score": 203.0,
           "date": "2026-08-07"
         },
         {
           "rank": 18,
-          "model": "Trinity Large Thinking",
-          "vendor": "Arcee AI",
+          "model": "Qwen3 Next 80B A3B",
+          "vendor": "Alibaba",
           "score": 203.0,
           "date": "2026-08-07"
         },
@@ -391,79 +391,79 @@
         },
         {
           "rank": 20,
+          "model": "gpt-oss-120b (low)",
+          "vendor": "OpenAI",
+          "score": 195.0,
+          "date": "2026-08-07"
+        },
+        {
+          "rank": 21,
           "model": "Command A+",
           "vendor": "Cohere",
           "score": 193.0,
           "date": "2026-08-07"
         },
         {
-          "rank": 21,
-          "model": "Gemini 3.5 Flash (medium)",
-          "vendor": "Google",
-          "score": 191.0,
-          "date": "2026-08-07"
-        },
-        {
           "rank": 22,
-          "model": "GPT-5.6 Luna (max)",
-          "vendor": "OpenAI",
-          "score": 190.0,
+          "model": "NVIDIA Nemotron Nano 12B v2 VL",
+          "vendor": "NVIDIA",
+          "score": 192.0,
           "date": "2026-08-07"
         },
         {
           "rank": 23,
-          "model": "NVIDIA Nemotron Nano 12B v2 VL",
-          "vendor": "NVIDIA",
-          "score": 186.0,
+          "model": "GPT-5.6 Luna (max)",
+          "vendor": "OpenAI",
+          "score": 191.0,
           "date": "2026-08-07"
         },
         {
           "rank": 24,
-          "model": "gpt-oss-120b (low)",
-          "vendor": "OpenAI",
-          "score": 185.0,
+          "model": "Qwen3 Next 80B A3B",
+          "vendor": "Alibaba",
+          "score": 181.0,
           "date": "2026-08-07"
         },
         {
           "rank": 25,
-          "model": "Qwen3 Next 80B A3B",
-          "vendor": "Alibaba",
-          "score": 185.0,
+          "model": "NVIDIA Nemotron Nano 9B V2",
+          "vendor": "NVIDIA",
+          "score": 181.0,
           "date": "2026-08-07"
         },
         {
           "rank": 26,
           "model": "NVIDIA Nemotron 3 Nano",
           "vendor": "NVIDIA",
-          "score": 182.0,
+          "score": 181.0,
           "date": "2026-08-07"
         },
         {
           "rank": 27,
-          "model": "NVIDIA Nemotron Nano 9B V2",
-          "vendor": "NVIDIA",
-          "score": 179.0,
+          "model": "Gemini 3.5 Flash (medium)",
+          "vendor": "Google",
+          "score": 177.0,
           "date": "2026-08-07"
         },
         {
           "rank": 28,
           "model": "GPT-5.6 Luna (xhigh)",
           "vendor": "OpenAI",
-          "score": 177.0,
+          "score": 175.0,
           "date": "2026-08-07"
         },
         {
           "rank": 29,
           "model": "GPT-5.6 Luna (high)",
           "vendor": "OpenAI",
-          "score": 176.0,
+          "score": 175.0,
           "date": "2026-08-07"
         },
         {
           "rank": 30,
-          "model": "Qwen3.5 35B A3B",
-          "vendor": "Alibaba",
-          "score": 174.0,
+          "model": "NVIDIA Nemotron Nano 9B V2",
+          "vendor": "NVIDIA",
+          "score": 171.0,
           "date": "2026-08-07"
         }
       ]
