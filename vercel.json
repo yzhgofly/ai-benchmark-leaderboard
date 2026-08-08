@@ -1,3 +1,22 @@
 {
-  "version": 2
+  "version": 2,
+  "headers": [
+    {
+      "source": "/data/(.*).json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, must-revalidate"
+        }
+      ]
+    }
+  ],
+  "functions": {
+    "api/leaderboard.js": {
+      "maxDuration": 60
+    },
+    "api/refresh.js": {
+      "maxDuration": 60
+    }
+  }
 }
