@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T16:39:09+00:00",
+  "generatedAt": "2026-08-19T20:36:26+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -260,28 +260,28 @@
           "rank": 1,
           "model": "Celeris-1",
           "vendor": "Celeris",
-          "score": 1666.0,
+          "score": 1678.0,
           "date": "2026-08-19"
         },
         {
           "rank": 2,
           "model": "Mercury 2",
           "vendor": "Inception",
-          "score": 835.0,
+          "score": 902.0,
           "date": "2026-08-19"
         },
         {
           "rank": 3,
-          "model": "Gemini 3.5 Flash-Lite",
+          "model": "Gemini 3.7 Flash (high)",
           "vendor": "Google",
-          "score": 375.0,
+          "score": 364.0,
           "date": "2026-08-19"
         },
         {
           "rank": 4,
-          "model": "Gemini 3.7 Flash (high)",
+          "model": "Gemini 3.5 Flash-Lite",
           "vendor": "Google",
-          "score": 372.0,
+          "score": 351.0,
           "date": "2026-08-19"
         },
         {
@@ -293,30 +293,30 @@
         },
         {
           "rank": 6,
-          "model": "Gemini 3.7 Flash (low)",
-          "vendor": "Google",
-          "score": 324.0,
+          "model": "Nemotron 3 Nano Omni 30B A3B",
+          "vendor": "NVIDIA",
+          "score": 322.0,
           "date": "2026-08-19"
         },
         {
           "rank": 7,
-          "model": "Gemini 3.7 Flash (medium)",
+          "model": "Gemini 3.7 Flash (low)",
           "vendor": "Google",
-          "score": 320.0,
+          "score": 321.0,
           "date": "2026-08-19"
         },
         {
           "rank": 8,
-          "model": "Nemotron 3.5 Lightning",
-          "vendor": "NVIDIA",
-          "score": 313.0,
+          "model": "Gemini 3.7 Flash (medium)",
+          "vendor": "Google",
+          "score": 318.0,
           "date": "2026-08-19"
         },
         {
           "rank": 9,
-          "model": "Nemotron 3 Nano Omni 30B A3B",
+          "model": "Nemotron 3.5 Lightning",
           "vendor": "NVIDIA",
-          "score": 310.0,
+          "score": 317.0,
           "date": "2026-08-19"
         },
         {
@@ -344,21 +344,21 @@
           "rank": 13,
           "model": "Nemotron 3 Nano",
           "vendor": "NVIDIA",
-          "score": 235.0,
+          "score": 241.0,
           "date": "2026-08-19"
         },
         {
           "rank": 14,
           "model": "Nemotron 3 Nano",
           "vendor": "NVIDIA",
-          "score": 227.0,
+          "score": 228.0,
           "date": "2026-08-19"
         },
         {
           "rank": 15,
           "model": "Command A+",
           "vendor": "Cohere",
-          "score": 221.0,
+          "score": 216.0,
           "date": "2026-08-19"
         },
         {
@@ -370,16 +370,16 @@
         },
         {
           "rank": 17,
-          "model": "Gemini 3.6 Flash",
-          "vendor": "Google",
+          "model": "Trinity Large Thinking",
+          "vendor": "Arcee AI",
           "score": 203.0,
           "date": "2026-08-19"
         },
         {
           "rank": 18,
-          "model": "Trinity Large Thinking",
-          "vendor": "Arcee AI",
-          "score": 203.0,
+          "model": "Gemini 3.6 Flash",
+          "vendor": "Google",
+          "score": 201.0,
           "date": "2026-08-19"
         },
         {
@@ -400,7 +400,7 @@
           "rank": 21,
           "model": "NVIDIA Nemotron Nano 9B V2",
           "vendor": "NVIDIA",
-          "score": 186.0,
+          "score": 185.0,
           "date": "2026-08-19"
         },
         {
@@ -412,16 +412,16 @@
         },
         {
           "rank": 23,
-          "model": "Nova 2.0 Lite (low)",
-          "vendor": "Amazon",
-          "score": 171.0,
+          "model": "Qwen3.5 35B A3B",
+          "vendor": "Alibaba",
+          "score": 173.0,
           "date": "2026-08-19"
         },
         {
           "rank": 24,
-          "model": "Qwen3.5 35B A3B",
-          "vendor": "Alibaba",
-          "score": 170.0,
+          "model": "Nova 2.0 Lite (low)",
+          "vendor": "Amazon",
+          "score": 173.0,
           "date": "2026-08-19"
         },
         {
@@ -447,16 +447,16 @@
         },
         {
           "rank": 28,
-          "model": "Ling 3.0 Tiny",
-          "vendor": "InclusionAI",
-          "score": 163.0,
+          "model": "Gemini 3.5 Flash (minimal)",
+          "vendor": "Google",
+          "score": 165.0,
           "date": "2026-08-19"
         },
         {
           "rank": 29,
-          "model": "Gemini 3.5 Flash (minimal)",
-          "vendor": "Google",
-          "score": 161.0,
+          "model": "Ling 3.0 Tiny",
+          "vendor": "InclusionAI",
+          "score": 163.0,
           "date": "2026-08-19"
         },
         {
