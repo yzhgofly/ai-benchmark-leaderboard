@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T04:44:11+00:00",
+  "generatedAt": "2026-08-19T08:47:30+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -260,7 +260,7 @@
           "rank": 1,
           "model": "Celeris-1",
           "vendor": "Celeris",
-          "score": 1526.0,
+          "score": 1596.0,
           "date": "2026-08-19"
         },
         {
@@ -274,49 +274,49 @@
           "rank": 3,
           "model": "LFM2.5-8B-A1B",
           "vendor": "Liquid AI",
-          "score": 338.0,
+          "score": 339.0,
           "date": "2026-08-19"
         },
         {
           "rank": 4,
           "model": "Gemini 3.5 Flash-Lite",
           "vendor": "Google",
-          "score": 328.0,
+          "score": 332.0,
           "date": "2026-08-19"
         },
         {
           "rank": 5,
           "model": "Gemini 3.7 Flash (high)",
           "vendor": "Google",
-          "score": 322.0,
+          "score": 323.0,
           "date": "2026-08-19"
         },
         {
           "rank": 6,
-          "model": "Gemini 3.7 Flash (medium)",
-          "vendor": "Google",
-          "score": 320.0,
+          "model": "Nemotron 3 Nano Omni 30B A3B",
+          "vendor": "NVIDIA",
+          "score": 323.0,
           "date": "2026-08-19"
         },
         {
           "rank": 7,
-          "model": "Nemotron 3 Nano Omni 30B A3B",
-          "vendor": "NVIDIA",
-          "score": 310.0,
+          "model": "Gemini 3.7 Flash (medium)",
+          "vendor": "Google",
+          "score": 317.0,
           "date": "2026-08-19"
         },
         {
           "rank": 8,
-          "model": "Nemotron 3.5 Lightning",
-          "vendor": "NVIDIA",
+          "model": "Gemini 3.7 Flash (low)",
+          "vendor": "Google",
           "score": 303.0,
           "date": "2026-08-19"
         },
         {
           "rank": 9,
-          "model": "Gemini 3.7 Flash (low)",
-          "vendor": "Google",
-          "score": 282.0,
+          "model": "Nemotron 3.5 Lightning",
+          "vendor": "NVIDIA",
+          "score": 302.0,
           "date": "2026-08-19"
         },
         {
@@ -330,7 +330,7 @@
           "rank": 11,
           "model": "LFM2.5-VL-1.6B",
           "vendor": "Liquid AI",
-          "score": 277.0,
+          "score": 265.0,
           "date": "2026-08-19"
         },
         {
@@ -344,28 +344,28 @@
           "rank": 13,
           "model": "Nemotron 3 Nano",
           "vendor": "NVIDIA",
-          "score": 219.0,
+          "score": 230.0,
           "date": "2026-08-19"
         },
         {
           "rank": 14,
           "model": "Nemotron 3 Nano",
           "vendor": "NVIDIA",
-          "score": 218.0,
+          "score": 225.0,
           "date": "2026-08-19"
         },
         {
           "rank": 15,
           "model": "Command A+",
           "vendor": "Cohere",
-          "score": 216.0,
+          "score": 207.0,
           "date": "2026-08-19"
         },
         {
           "rank": 16,
           "model": "Ministral 3 3B",
           "vendor": "Mistral",
-          "score": 204.0,
+          "score": 203.0,
           "date": "2026-08-19"
         },
         {
@@ -386,20 +386,20 @@
           "rank": 19,
           "model": "Trinity Large Thinking",
           "vendor": "Arcee AI",
-          "score": 190.0,
+          "score": 197.0,
           "date": "2026-08-19"
         },
         {
           "rank": 20,
-          "model": "Qwen3 Next 80B A3B",
-          "vendor": "Alibaba",
-          "score": 183.0,
+          "model": "NVIDIA Nemotron Nano 9B V2",
+          "vendor": "NVIDIA",
+          "score": 186.0,
           "date": "2026-08-19"
         },
         {
           "rank": 21,
-          "model": "NVIDIA Nemotron Nano 9B V2",
-          "vendor": "NVIDIA",
+          "model": "Qwen3 Next 80B A3B",
+          "vendor": "Alibaba",
           "score": 183.0,
           "date": "2026-08-19"
         },
@@ -440,30 +440,30 @@
         },
         {
           "rank": 27,
-          "model": "NVIDIA Nemotron Nano 12B v2 VL",
-          "vendor": "NVIDIA",
-          "score": 166.0,
-          "date": "2026-08-19"
-        },
-        {
-          "rank": 28,
-          "model": "gpt-oss-120b (high)",
-          "vendor": "OpenAI",
-          "score": 164.0,
-          "date": "2026-08-19"
-        },
-        {
-          "rank": 29,
           "model": "Nova 2.0 Lite (low)",
           "vendor": "Amazon",
           "score": 164.0,
           "date": "2026-08-19"
         },
         {
-          "rank": 30,
-          "model": "gpt-oss-120b (low)",
+          "rank": 28,
+          "model": "NVIDIA Nemotron Nano 12B v2 VL",
+          "vendor": "NVIDIA",
+          "score": 163.0,
+          "date": "2026-08-19"
+        },
+        {
+          "rank": 29,
+          "model": "gpt-oss-120b (high)",
           "vendor": "OpenAI",
-          "score": 164.0,
+          "score": 161.0,
+          "date": "2026-08-19"
+        },
+        {
+          "rank": 30,
+          "model": "Mistral Small 4",
+          "vendor": "Mistral",
+          "score": 160.0,
           "date": "2026-08-19"
         }
       ]
