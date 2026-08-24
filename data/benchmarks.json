@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T16:47:19+00:00",
+  "generatedAt": "2026-08-24T20:39:13+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -260,7 +260,7 @@
           "rank": 1,
           "model": "Celeris-1",
           "vendor": "Celeris",
-          "score": 1541.0,
+          "score": 1573.0,
           "date": "2026-08-24"
         },
         {
@@ -274,7 +274,7 @@
           "rank": 3,
           "model": "Ling 3.0 Flash",
           "vendor": "InclusionAI",
-          "score": 394.0,
+          "score": 389.0,
           "date": "2026-08-24"
         },
         {
@@ -288,7 +288,7 @@
           "rank": 5,
           "model": "Gemini 3.7 Flash (medium)",
           "vendor": "Google",
-          "score": 359.0,
+          "score": 364.0,
           "date": "2026-08-24"
         },
         {
@@ -323,14 +323,14 @@
           "rank": 10,
           "model": "Nemotron 3 Nano Omni 30B A3B",
           "vendor": "NVIDIA",
-          "score": 324.0,
+          "score": 323.0,
           "date": "2026-08-24"
         },
         {
           "rank": 11,
           "model": "Nemotron 3.5 Lightning",
           "vendor": "NVIDIA",
-          "score": 315.0,
+          "score": 314.0,
           "date": "2026-08-24"
         },
         {
@@ -372,7 +372,7 @@
           "rank": 17,
           "model": "gpt-oss-120b (low)",
           "vendor": "OpenAI",
-          "score": 242.0,
+          "score": 245.0,
           "date": "2026-08-24"
         },
         {
@@ -386,7 +386,7 @@
           "rank": 19,
           "model": "Gemini 3.5 Flash (medium)",
           "vendor": "Google",
-          "score": 217.0,
+          "score": 212.0,
           "date": "2026-08-24"
         },
         {
@@ -414,7 +414,7 @@
           "rank": 23,
           "model": "Nova 2.0 Lite (medium)",
           "vendor": "Amazon",
-          "score": 191.0,
+          "score": 193.0,
           "date": "2026-08-24"
         },
         {
@@ -440,16 +440,16 @@
         },
         {
           "rank": 27,
-          "model": "gpt-oss-120b (high)",
-          "vendor": "OpenAI",
-          "score": 184.0,
+          "model": "Nova 2.0 Lite",
+          "vendor": "Amazon",
+          "score": 185.0,
           "date": "2026-08-24"
         },
         {
           "rank": 28,
-          "model": "Nova 2.0 Lite",
-          "vendor": "Amazon",
-          "score": 183.0,
+          "model": "gpt-oss-120b (high)",
+          "vendor": "OpenAI",
+          "score": 184.0,
           "date": "2026-08-24"
         },
         {
