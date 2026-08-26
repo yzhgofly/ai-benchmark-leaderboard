@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T08:53:19+00:00",
+  "generatedAt": "2026-08-26T13:06:09+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -267,7 +267,7 @@
           "rank": 2,
           "model": "Mercury 2",
           "vendor": "Inception",
-          "score": 1029.0,
+          "score": 1101.0,
           "date": "2026-08-26"
         },
         {
@@ -323,7 +323,7 @@
           "rank": 10,
           "model": "LFM2.5-8B-A1B",
           "vendor": "Liquid AI",
-          "score": 339.0,
+          "score": 338.0,
           "date": "2026-08-26"
         },
         {
@@ -337,14 +337,14 @@
           "rank": 12,
           "model": "Nova Micro",
           "vendor": "Amazon",
-          "score": 325.0,
+          "score": 323.0,
           "date": "2026-08-26"
         },
         {
           "rank": 13,
           "model": "Nemotron 3.5 Lightning",
           "vendor": "NVIDIA",
-          "score": 310.0,
+          "score": 308.0,
           "date": "2026-08-26"
         },
         {
@@ -365,28 +365,28 @@
           "rank": 16,
           "model": "Nemotron 3 Nano",
           "vendor": "NVIDIA",
-          "score": 248.0,
+          "score": 245.0,
           "date": "2026-08-26"
         },
         {
           "rank": 17,
           "model": "Nemotron 3 Nano",
           "vendor": "NVIDIA",
-          "score": 245.0,
+          "score": 237.0,
           "date": "2026-08-26"
         },
         {
           "rank": 18,
           "model": "NVIDIA Nemotron Nano 9B V2",
           "vendor": "NVIDIA",
-          "score": 225.0,
+          "score": 232.0,
           "date": "2026-08-26"
         },
         {
           "rank": 19,
           "model": "gpt-oss-120b (low)",
           "vendor": "OpenAI",
-          "score": 214.0,
+          "score": 211.0,
           "date": "2026-08-26"
         },
         {
@@ -433,30 +433,30 @@
         },
         {
           "rank": 26,
-          "model": "Qwen3 Next 80B A3B",
-          "vendor": "Alibaba",
-          "score": 191.0,
+          "model": "Nova 2.0 Lite (medium)",
+          "vendor": "Amazon",
+          "score": 188.0,
           "date": "2026-08-26"
         },
         {
           "rank": 27,
-          "model": "Nova 2.0 Lite (medium)",
-          "vendor": "Amazon",
-          "score": 190.0,
+          "model": "Qwen3 Next 80B A3B",
+          "vendor": "Alibaba",
+          "score": 188.0,
           "date": "2026-08-26"
         },
         {
           "rank": 28,
-          "model": "Nova 2.0 Lite",
+          "model": "Nova 2.0 Lite (low)",
           "vendor": "Amazon",
           "score": 184.0,
           "date": "2026-08-26"
         },
         {
           "rank": 29,
-          "model": "Nova 2.0 Lite (low)",
+          "model": "Nova 2.0 Lite",
           "vendor": "Amazon",
-          "score": 181.0,
+          "score": 184.0,
           "date": "2026-08-26"
         },
         {
