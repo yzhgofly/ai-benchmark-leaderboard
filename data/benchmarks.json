@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T06:52:31+00:00",
+  "generatedAt": "2026-08-29T13:47:17+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -260,14 +260,14 @@
           "rank": 1,
           "model": "Celeris-1",
           "vendor": "Celeris",
-          "score": 1579.0,
+          "score": 1537.0,
           "date": "2026-08-29"
         },
         {
           "rank": 2,
           "model": "Mercury 2",
           "vendor": "Inception",
-          "score": 950.0,
+          "score": 928.0,
           "date": "2026-08-29"
         },
         {
@@ -288,7 +288,7 @@
           "rank": 5,
           "model": "HyperNova 60B 2605",
           "vendor": "Multiverse Computing",
-          "score": 353.0,
+          "score": 352.0,
           "date": "2026-08-29"
         },
         {
@@ -309,7 +309,7 @@
           "rank": 8,
           "model": "Nemotron 3 Nano Omni 30B A3B",
           "vendor": "NVIDIA",
-          "score": 327.0,
+          "score": 326.0,
           "date": "2026-08-29"
         },
         {
@@ -344,49 +344,49 @@
           "rank": 13,
           "model": "Nova Micro",
           "vendor": "Amazon",
-          "score": 276.0,
+          "score": 269.0,
           "date": "2026-08-29"
         },
         {
           "rank": 14,
-          "model": "Command A+",
-          "vendor": "Cohere",
-          "score": 249.0,
+          "model": "Nemotron 3 Nano",
+          "vendor": "NVIDIA",
+          "score": 248.0,
           "date": "2026-08-29"
         },
         {
           "rank": 15,
-          "model": "Qwen3.5 Omni Flash",
-          "vendor": "Alibaba",
-          "score": 245.0,
+          "model": "Command A+",
+          "vendor": "Cohere",
+          "score": 244.0,
           "date": "2026-08-29"
         },
         {
           "rank": 16,
-          "model": "Nemotron 3 Nano",
-          "vendor": "NVIDIA",
-          "score": 233.0,
+          "model": "Qwen3.5 Omni Flash",
+          "vendor": "Alibaba",
+          "score": 240.0,
           "date": "2026-08-29"
         },
         {
           "rank": 17,
-          "model": "Trinity Large Thinking",
-          "vendor": "Arcee AI",
-          "score": 223.0,
+          "model": "Nemotron 3 Nano (Non-reasoning)",
+          "vendor": "NVIDIA",
+          "score": 225.0,
           "date": "2026-08-29"
         },
         {
           "rank": 18,
-          "model": "Granite 4.2 3B",
-          "vendor": "IBM",
-          "score": 221.0,
+          "model": "Trinity Large Thinking",
+          "vendor": "Arcee AI",
+          "score": 224.0,
           "date": "2026-08-29"
         },
         {
           "rank": 19,
-          "model": "Nemotron 3 Nano (Non-reasoning)",
-          "vendor": "NVIDIA",
-          "score": 219.0,
+          "model": "Granite 4.2 3B",
+          "vendor": "IBM",
+          "score": 221.0,
           "date": "2026-08-29"
         },
         {
@@ -433,37 +433,37 @@
         },
         {
           "rank": 26,
-          "model": "Nova 2.0 Lite (high)",
-          "vendor": "Amazon",
-          "score": 179.0,
-          "date": "2026-08-29"
-        },
-        {
-          "rank": 27,
           "model": "Gemini 3.6 Flash",
           "vendor": "Google",
           "score": 175.0,
           "date": "2026-08-29"
         },
         {
+          "rank": 27,
+          "model": "Nova 2.0 Lite (high)",
+          "vendor": "Amazon",
+          "score": 173.0,
+          "date": "2026-08-29"
+        },
+        {
           "rank": 28,
           "model": "Nova 2.0 Lite (medium)",
           "vendor": "Amazon",
-          "score": 173.0,
+          "score": 172.0,
           "date": "2026-08-29"
         },
         {
           "rank": 29,
           "model": "NVIDIA Nemotron Nano 9B V2 (Non-reasoning)",
           "vendor": "NVIDIA",
-          "score": 168.0,
+          "score": 169.0,
           "date": "2026-08-29"
         },
         {
           "rank": 30,
           "model": "gpt-oss-120b (high)",
           "vendor": "OpenAI",
-          "score": 164.0,
+          "score": 167.0,
           "date": "2026-08-29"
         }
       ]
