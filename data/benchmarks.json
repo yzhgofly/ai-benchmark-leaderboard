@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T13:15:40+00:00",
+  "generatedAt": "2026-09-13T18:42:53+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -267,7 +267,7 @@
           "rank": 2,
           "model": "Mercury 2",
           "vendor": "Inception",
-          "score": 832.0,
+          "score": 838.0,
           "date": "2026-09-13"
         },
         {
@@ -281,7 +281,7 @@
           "rank": 4,
           "model": "HyperNova 60B 2605 (high)",
           "vendor": "Multiverse Computing",
-          "score": 356.0,
+          "score": 345.0,
           "date": "2026-09-13"
         },
         {
@@ -316,7 +316,7 @@
           "rank": 9,
           "model": "Nemotron 3.5 Lightning",
           "vendor": "NVIDIA",
-          "score": 292.0,
+          "score": 294.0,
           "date": "2026-09-13"
         },
         {
@@ -351,7 +351,7 @@
           "rank": 14,
           "model": "gpt-oss-20b (low)",
           "vendor": "OpenAI",
-          "score": 255.0,
+          "score": 258.0,
           "date": "2026-09-13"
         },
         {
@@ -393,7 +393,7 @@
           "rank": 20,
           "model": "gpt-oss-20b (high)",
           "vendor": "OpenAI",
-          "score": 229.0,
+          "score": 232.0,
           "date": "2026-09-13"
         },
         {
@@ -419,30 +419,30 @@
         },
         {
           "rank": 24,
+          "model": "Gemini 3.5 Flash (minimal)",
+          "vendor": "Google",
+          "score": 214.0,
+          "date": "2026-09-13"
+        },
+        {
+          "rank": 25,
           "model": "Granite 4.2 3B",
           "vendor": "IBM",
           "score": 214.0,
           "date": "2026-09-13"
         },
         {
-          "rank": 25,
+          "rank": 26,
           "model": "DeepSeek V4 Flash 0731 (max)",
           "vendor": "DeepSeek",
           "score": 213.0,
           "date": "2026-09-13"
         },
         {
-          "rank": 26,
+          "rank": 27,
           "model": "DeepSeek V4.1 Flash (max)",
           "vendor": "DeepSeek",
           "score": 210.0,
-          "date": "2026-09-13"
-        },
-        {
-          "rank": 27,
-          "model": "Gemini 3.5 Flash (minimal)",
-          "vendor": "Google",
-          "score": 208.0,
           "date": "2026-09-13"
         },
         {
