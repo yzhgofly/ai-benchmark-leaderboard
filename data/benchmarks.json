@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T04:27:59+00:00",
+  "generatedAt": "2026-09-24T13:28:53+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -260,7 +260,7 @@
           "rank": 1,
           "model": "Celeris-1",
           "vendor": "Celeris",
-          "score": 1521.0,
+          "score": 1513.0,
           "date": "2026-09-24"
         },
         {
@@ -295,7 +295,7 @@
           "rank": 6,
           "model": "Gemini 3.8 Flash (high)",
           "vendor": "Google",
-          "score": 291.0,
+          "score": 297.0,
           "date": "2026-09-24"
         },
         {
@@ -316,14 +316,14 @@
           "rank": 9,
           "model": "Nemotron 3.5 Lightning",
           "vendor": "NVIDIA",
-          "score": 267.0,
+          "score": 268.0,
           "date": "2026-09-24"
         },
         {
           "rank": 10,
           "model": "Nemotron 3 Nano (Non-reasoning)",
           "vendor": "NVIDIA",
-          "score": 247.0,
+          "score": 246.0,
           "date": "2026-09-24"
         },
         {
@@ -349,44 +349,44 @@
         },
         {
           "rank": 14,
-          "model": "Muse Spark 1.3 (xhigh)",
-          "vendor": "Meta",
-          "score": 228.0,
-          "date": "2026-09-24"
-        },
-        {
-          "rank": 15,
           "model": "Granite 4.2 3B",
           "vendor": "IBM",
           "score": 220.0,
           "date": "2026-09-24"
         },
         {
-          "rank": 16,
+          "rank": 15,
           "model": "Muse Spark 1.3 (max)",
           "vendor": "Meta",
           "score": 219.0,
           "date": "2026-09-24"
         },
         {
-          "rank": 17,
+          "rank": 16,
           "model": "DeepSeek V4 Flash Vision (max)",
           "vendor": "DeepSeek",
           "score": 218.0,
           "date": "2026-09-24"
         },
         {
+          "rank": 17,
+          "model": "Muse Spark 1.3 (xhigh)",
+          "vendor": "Meta",
+          "score": 217.0,
+          "date": "2026-09-24"
+        },
+        {
           "rank": 18,
-          "model": "gpt-oss-20b (low)",
-          "vendor": "OpenAI",
-          "score": 215.0,
+          "model": "Command A+",
+          "vendor": "Cohere",
+          "score": 214.0,
           "date": "2026-09-24"
         },
         {
           "rank": 19,
-          "model": "Command A+",
-          "vendor": "Cohere",
-          "score": 214.0,
+          "model": "gpt-oss-20b (low)",
+          "vendor": "OpenAI",
+          "score": 212.0,
           "date": "2026-09-24"
         },
         {
@@ -414,7 +414,7 @@
           "rank": 23,
           "model": "gpt-oss-120b (high)",
           "vendor": "OpenAI",
-          "score": 186.0,
+          "score": 187.0,
           "date": "2026-09-24"
         },
         {
@@ -461,9 +461,9 @@
         },
         {
           "rank": 30,
-          "model": "Nova 2.0 Lite (medium)",
+          "model": "Nova 2.0 Lite (high)",
           "vendor": "Amazon",
-          "score": 168.0,
+          "score": 167.0,
           "date": "2026-09-24"
         }
       ]
