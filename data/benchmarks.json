@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T04:19:17+00:00",
+  "generatedAt": "2026-10-24T12:35:57+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -260,21 +260,21 @@
           "rank": 1,
           "model": "Celeris-1",
           "vendor": "Celeris",
-          "score": 1541.0,
+          "score": 1581.0,
           "date": "2026-10-24"
         },
         {
           "rank": 2,
           "model": "K2 Horizon 375B A23B",
           "vendor": "Institute of Foundation Models",
-          "score": 925.0,
+          "score": 909.0,
           "date": "2026-10-24"
         },
         {
           "rank": 3,
           "model": "Mercury 2.5",
           "vendor": "Inception",
-          "score": 681.0,
+          "score": 689.0,
           "date": "2026-10-24"
         },
         {
@@ -288,42 +288,42 @@
           "rank": 5,
           "model": "Gemini 3.5 Flash-Lite",
           "vendor": "Google",
-          "score": 412.0,
+          "score": 430.0,
           "date": "2026-10-24"
         },
         {
           "rank": 6,
           "model": "Trinity Large Thinking",
           "vendor": "Arcee AI",
-          "score": 352.0,
+          "score": 357.0,
           "date": "2026-10-24"
         },
         {
           "rank": 7,
           "model": "Beam 1.0",
           "vendor": "Reflection",
-          "score": 327.0,
+          "score": 337.0,
           "date": "2026-10-24"
         },
         {
           "rank": 8,
           "model": "Nemotron 3.5 Lightning",
           "vendor": "NVIDIA",
-          "score": 287.0,
+          "score": 288.0,
           "date": "2026-10-24"
         },
         {
           "rank": 9,
           "model": "Nova Micro",
           "vendor": "Amazon",
-          "score": 276.0,
+          "score": 280.0,
           "date": "2026-10-24"
         },
         {
           "rank": 10,
           "model": "Nemotron 3 Nano (non-reasoning)",
           "vendor": "NVIDIA",
-          "score": 266.0,
+          "score": 268.0,
           "date": "2026-10-24"
         },
         {
@@ -337,7 +337,7 @@
           "rank": 12,
           "model": "Claude Haiku 5.5 (max)",
           "vendor": "Anthropic",
-          "score": 235.0,
+          "score": 236.0,
           "date": "2026-10-24"
         },
         {
@@ -349,36 +349,36 @@
         },
         {
           "rank": 14,
+          "model": "Qwen3.5 Omni Flash",
+          "vendor": "Alibaba",
+          "score": 234.0,
+          "date": "2026-10-24"
+        },
+        {
+          "rank": 15,
           "model": "Nemotron 3 Nano Omni 30B A3B",
           "vendor": "NVIDIA",
           "score": 234.0,
           "date": "2026-10-24"
         },
         {
-          "rank": 15,
-          "model": "Qwen3.5 Omni Flash",
-          "vendor": "Alibaba",
+          "rank": 16,
+          "model": "Step 5 Preview",
+          "vendor": "StepFun",
           "score": 229.0,
           "date": "2026-10-24"
         },
         {
-          "rank": 16,
-          "model": "Step 5 Preview",
-          "vendor": "StepFun",
+          "rank": 17,
+          "model": "Inkling Small",
+          "vendor": "Thinking Machines",
           "score": 224.0,
           "date": "2026-10-24"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "model": "Ling 3.1 Flash",
           "vendor": "InclusionAI",
-          "score": 219.0,
-          "date": "2026-10-24"
-        },
-        {
-          "rank": 18,
-          "model": "Inkling Small",
-          "vendor": "Thinking Machines",
           "score": 219.0,
           "date": "2026-10-24"
         },
@@ -400,70 +400,70 @@
           "rank": 21,
           "model": "NVIDIA Nemotron Nano 12B v2 VL (non-reasoning)",
           "vendor": "NVIDIA",
-          "score": 204.0,
+          "score": 202.0,
           "date": "2026-10-24"
         },
         {
           "rank": 22,
-          "model": "Sarvam 105B (high)",
-          "vendor": "Sarvam",
-          "score": 197.0,
-          "date": "2026-10-24"
-        },
-        {
-          "rank": 23,
           "model": "DeepSeek V4.1 Flash 1017 (max)",
           "vendor": "DeepSeek",
           "score": 195.0,
           "date": "2026-10-24"
         },
         {
+          "rank": 23,
+          "model": "Inkling (xhigh)",
+          "vendor": "Thinking Machines",
+          "score": 194.0,
+          "date": "2026-10-24"
+        },
+        {
           "rank": 24,
-          "model": "DeepSeek V4 Flash Vision (max)",
-          "vendor": "DeepSeek",
-          "score": 188.0,
+          "model": "Sarvam 105B (high)",
+          "vendor": "Sarvam",
+          "score": 192.0,
           "date": "2026-10-24"
         },
         {
           "rank": 25,
           "model": "Claude Haiku 5.5 (xhigh)",
           "vendor": "Anthropic",
-          "score": 186.0,
+          "score": 190.0,
           "date": "2026-10-24"
         },
         {
           "rank": 26,
-          "model": "Nova 2.0 Lite (high)",
-          "vendor": "Amazon",
-          "score": 179.0,
+          "model": "DeepSeek V4 Flash Vision (max)",
+          "vendor": "DeepSeek",
+          "score": 190.0,
           "date": "2026-10-24"
         },
         {
           "rank": 27,
-          "model": "Mistral Small 4",
-          "vendor": "Mistral",
-          "score": 179.0,
+          "model": "Claude Haiku 5.5 (high)",
+          "vendor": "Anthropic",
+          "score": 189.0,
           "date": "2026-10-24"
         },
         {
           "rank": 28,
-          "model": "Claude Haiku 5.5 (medium)",
-          "vendor": "Anthropic",
-          "score": 178.0,
+          "model": "Mistral Small 4",
+          "vendor": "Mistral",
+          "score": 183.0,
           "date": "2026-10-24"
         },
         {
           "rank": 29,
-          "model": "gpt-oss-20b (low)",
-          "vendor": "OpenAI",
-          "score": 178.0,
+          "model": "Nova 2.0 Lite (high)",
+          "vendor": "Amazon",
+          "score": 182.0,
           "date": "2026-10-24"
         },
         {
           "rank": 30,
-          "model": "Inkling (xhigh)",
-          "vendor": "Thinking Machines",
-          "score": 177.0,
+          "model": "Claude Haiku 5.5 (medium)",
+          "vendor": "Anthropic",
+          "score": 180.0,
           "date": "2026-10-24"
         }
       ]
