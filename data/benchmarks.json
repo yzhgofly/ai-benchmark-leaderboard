@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T14:58:45+00:00",
+  "generatedAt": "2026-10-30T20:38:27+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -260,35 +260,35 @@
           "rank": 1,
           "model": "Celeris-1",
           "vendor": "Celeris",
-          "score": 1684.0,
+          "score": 1663.0,
           "date": "2026-10-30"
         },
         {
           "rank": 2,
-          "model": "Nemotron 3.5 Super VL",
-          "vendor": "NVIDIA",
-          "score": 443.0,
+          "model": "DeepSeek V4.1 Flash 1017 (non-reasoning)",
+          "vendor": "DeepSeek",
+          "score": 1486.0,
           "date": "2026-10-30"
         },
         {
           "rank": 3,
-          "model": "Gemini 3.5 Flash-Lite",
-          "vendor": "Google",
-          "score": 439.0,
+          "model": "Nemotron 3.5 Super VL",
+          "vendor": "NVIDIA",
+          "score": 452.0,
           "date": "2026-10-30"
         },
         {
           "rank": 4,
-          "model": "Beam 1.0",
-          "vendor": "Reflection",
-          "score": 315.0,
+          "model": "Gemini 3.5 Flash-Lite",
+          "vendor": "Google",
+          "score": 413.0,
           "date": "2026-10-30"
         },
         {
           "rank": 5,
-          "model": "Nova Micro",
-          "vendor": "Amazon",
-          "score": 310.0,
+          "model": "Beam 1.0",
+          "vendor": "Reflection",
+          "score": 299.0,
           "date": "2026-10-30"
         },
         {
@@ -300,72 +300,72 @@
         },
         {
           "rank": 7,
+          "model": "Nova Micro",
+          "vendor": "Amazon",
+          "score": 273.0,
+          "date": "2026-10-30"
+        },
+        {
+          "rank": 8,
           "model": "Nemotron 3 Nano",
           "vendor": "NVIDIA",
           "score": 255.0,
           "date": "2026-10-30"
         },
         {
-          "rank": 8,
-          "model": "gpt-oss-120b (low)",
-          "vendor": "OpenAI",
-          "score": 253.0,
-          "date": "2026-10-30"
-        },
-        {
           "rank": 9,
           "model": "Nemotron 3 Nano (non-reasoning)",
           "vendor": "NVIDIA",
-          "score": 241.0,
+          "score": 243.0,
           "date": "2026-10-30"
         },
         {
           "rank": 10,
+          "model": "gpt-oss-120b (low)",
+          "vendor": "OpenAI",
+          "score": 243.0,
+          "date": "2026-10-30"
+        },
+        {
+          "rank": 11,
           "model": "Qwen3.5 Omni Flash",
           "vendor": "Alibaba",
           "score": 239.0,
           "date": "2026-10-30"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "model": "Claude Haiku 5.5 (max)",
           "vendor": "Anthropic",
           "score": 236.0,
           "date": "2026-10-30"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "model": "Nemotron 3 Nano Omni 30B A3B",
           "vendor": "NVIDIA",
-          "score": 233.0,
+          "score": 232.0,
           "date": "2026-10-30"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "model": "gpt-oss-20b (low)",
           "vendor": "OpenAI",
           "score": 217.0,
           "date": "2026-10-30"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "model": "Ling 3.1 Flash",
           "vendor": "InclusionAI",
-          "score": 216.0,
-          "date": "2026-10-30"
-        },
-        {
-          "rank": 15,
-          "model": "gpt-oss-120b (high)",
-          "vendor": "OpenAI",
-          "score": 215.0,
+          "score": 213.0,
           "date": "2026-10-30"
         },
         {
           "rank": 16,
-          "model": "NVIDIA Nemotron Nano 12B v2 VL (non-reasoning)",
-          "vendor": "NVIDIA",
-          "score": 205.0,
+          "model": "gpt-oss-120b (high)",
+          "vendor": "OpenAI",
+          "score": 208.0,
           "date": "2026-10-30"
         },
         {
@@ -377,93 +377,93 @@
         },
         {
           "rank": 18,
-          "model": "Inkling (xhigh)",
-          "vendor": "Thinking Machines",
-          "score": 198.0,
+          "model": "NVIDIA Nemotron Nano 12B v2 VL (non-reasoning)",
+          "vendor": "NVIDIA",
+          "score": 204.0,
           "date": "2026-10-30"
         },
         {
           "rank": 19,
-          "model": "Nova 2.0 Lite (high)",
-          "vendor": "Amazon",
-          "score": 192.0,
+          "model": "NVIDIA Nemotron Nano 9B V2",
+          "vendor": "NVIDIA",
+          "score": 203.0,
           "date": "2026-10-30"
         },
         {
           "rank": 20,
-          "model": "Claude Haiku 5.5 (xhigh)",
-          "vendor": "Anthropic",
-          "score": 191.0,
+          "model": "Inkling (xhigh)",
+          "vendor": "Thinking Machines",
+          "score": 201.0,
           "date": "2026-10-30"
         },
         {
           "rank": 21,
-          "model": "NVIDIA Nemotron Nano 9B V2",
-          "vendor": "NVIDIA",
-          "score": 187.0,
+          "model": "Ministral 3 3B",
+          "vendor": "Mistral",
+          "score": 197.0,
           "date": "2026-10-30"
         },
         {
           "rank": 22,
-          "model": "Claude Haiku 5.5 (high)",
-          "vendor": "Anthropic",
-          "score": 184.0,
+          "model": "Nova 2.0 Lite (high)",
+          "vendor": "Amazon",
+          "score": 187.0,
           "date": "2026-10-30"
         },
         {
           "rank": 23,
-          "model": "Nova 2.0 Lite (medium)",
-          "vendor": "Amazon",
-          "score": 178.0,
+          "model": "Claude Haiku 5.5 (xhigh)",
+          "vendor": "Anthropic",
+          "score": 186.0,
           "date": "2026-10-30"
         },
         {
           "rank": 24,
-          "model": "Mistral Small 4",
-          "vendor": "Mistral",
-          "score": 177.0,
+          "model": "Nova 2.0 Lite (medium)",
+          "vendor": "Amazon",
+          "score": 179.0,
           "date": "2026-10-30"
         },
         {
           "rank": 25,
-          "model": "DeepSeek V4.1 Flash 1017 (max)",
-          "vendor": "DeepSeek",
+          "model": "Mistral Small 4",
+          "vendor": "Mistral",
           "score": 176.0,
           "date": "2026-10-30"
         },
         {
           "rank": 26,
-          "model": "Claude Haiku 5.5 (medium)",
-          "vendor": "Anthropic",
-          "score": 176.0,
-          "date": "2026-10-30"
-        },
-        {
-          "rank": 27,
           "model": "Mistral Small 4 (non-reasoning)",
           "vendor": "Mistral",
           "score": 176.0,
           "date": "2026-10-30"
         },
         {
-          "rank": 28,
-          "model": "Ministral 3 3B",
-          "vendor": "Mistral",
+          "rank": 27,
+          "model": "DeepSeek V4.1 Flash 1017 (max)",
+          "vendor": "DeepSeek",
           "score": 175.0,
           "date": "2026-10-30"
         },
         {
-          "rank": 29,
-          "model": "Nova 2.0 Lite (non-reasoning)",
-          "vendor": "Amazon",
+          "rank": 28,
+          "model": "Claude Haiku 5.5 (high)",
+          "vendor": "Anthropic",
           "score": 173.0,
           "date": "2026-10-30"
         },
         {
-          "rank": 30,
-          "model": "Nova 2.0 Lite (low)",
-          "vendor": "Amazon",
+          "rank": 29,
+          "model": "NVIDIA Nemotron Nano 9B V2 (non-reasoning)",
+          "vendor": "NVIDIA",
           "score": 172.0,
+          "date": "2026-10-30"
+        },
+        {
+          "rank": 30,
+          "model": "Claude Haiku 5.5 (medium)",
+          "vendor": "Anthropic",
+          "score": 171.0,
           "date": "2026-10-30"
         }
       ]
