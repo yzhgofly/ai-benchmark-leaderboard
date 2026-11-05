@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:49:32+00:00",
+  "generatedAt": "2026-11-05T12:06:39+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -43,7 +43,7 @@
         },
         {
           "rank": 2,
-          "model": "Claude Opus 5.5 (max with fallback)",
+          "model": "Claude Opus 5.5 (max)",
           "vendor": "Anthropic",
           "score": 59.0,
           "date": "2026-11-05"
@@ -57,7 +57,7 @@
         },
         {
           "rank": 4,
-          "model": "Claude Opus 5.5 (xhigh with fallback)",
+          "model": "Claude Opus 5.5 (xhigh)",
           "vendor": "Anthropic",
           "score": 57.0,
           "date": "2026-11-05"
@@ -92,7 +92,7 @@
         },
         {
           "rank": 9,
-          "model": "Claude Sonnet 5.5 (max with fallback)",
+          "model": "Claude Sonnet 5.5 (max)",
           "vendor": "Anthropic",
           "score": 55.0,
           "date": "2026-11-05"
@@ -113,7 +113,7 @@
         },
         {
           "rank": 12,
-          "model": "Claude Opus 5.5 (high with fallback)",
+          "model": "Claude Opus 5.5 (high)",
           "vendor": "Anthropic",
           "score": 52.0,
           "date": "2026-11-05"
@@ -155,35 +155,35 @@
         },
         {
           "rank": 18,
-          "model": "Claude Fable 5.1 (xhigh with fallback)",
+          "model": "Claude Fable 5.1 (xhigh)",
           "vendor": "Anthropic",
           "score": 50.0,
           "date": "2026-11-05"
         },
         {
           "rank": 19,
-          "model": "Claude Sonnet 5.5 (xhigh with fallback)",
+          "model": "Claude Sonnet 5.5 (xhigh)",
           "vendor": "Anthropic",
           "score": 50.0,
           "date": "2026-11-05"
         },
         {
           "rank": 20,
-          "model": "Claude Fable 5.1 (max with fallback)",
+          "model": "Claude Fable 5.1 (max)",
           "vendor": "Anthropic",
           "score": 49.0,
           "date": "2026-11-05"
         },
         {
           "rank": 21,
-          "model": "Claude Opus 5.5 (medium with fallback)",
+          "model": "Claude Opus 5.5 (medium)",
           "vendor": "Anthropic",
           "score": 48.0,
           "date": "2026-11-05"
         },
         {
           "rank": 22,
-          "model": "Claude Fable 5.1 (high with fallback)",
+          "model": "Claude Fable 5.1 (high)",
           "vendor": "Anthropic",
           "score": 47.0,
           "date": "2026-11-05"
@@ -225,7 +225,7 @@
         },
         {
           "rank": 28,
-          "model": "Claude Fable 5.1 (medium with fallback)",
+          "model": "Claude Fable 5.1 (medium)",
           "vendor": "Anthropic",
           "score": 43.0,
           "date": "2026-11-05"
@@ -239,7 +239,7 @@
         },
         {
           "rank": 30,
-          "model": "Claude Sonnet 5.5 (high with fallback)",
+          "model": "Claude Sonnet 5.5 (high)",
           "vendor": "Anthropic",
           "score": 42.0,
           "date": "2026-11-05"
@@ -272,7 +272,7 @@
         },
         {
           "rank": 3,
-          "model": "Claude Opus 5.5 (max with fallback)",
+          "model": "Claude Opus 5.5 (max)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-05"
@@ -286,7 +286,7 @@
         },
         {
           "rank": 5,
-          "model": "Claude Opus 5.5 (xhigh with fallback)",
+          "model": "Claude Opus 5.5 (xhigh)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-05"
@@ -321,7 +321,7 @@
         },
         {
           "rank": 10,
-          "model": "Claude Sonnet 5.5 (max with fallback)",
+          "model": "Claude Sonnet 5.5 (max)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-05"
@@ -342,7 +342,7 @@
         },
         {
           "rank": 13,
-          "model": "Claude Opus 5.5 (high with fallback)",
+          "model": "Claude Opus 5.5 (high)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-05"
@@ -384,35 +384,35 @@
         },
         {
           "rank": 19,
-          "model": "Claude Fable 5.1 (xhigh with fallback)",
+          "model": "Claude Fable 5.1 (xhigh)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-05"
         },
         {
           "rank": 20,
-          "model": "Claude Sonnet 5.5 (xhigh with fallback)",
+          "model": "Claude Sonnet 5.5 (xhigh)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-05"
         },
         {
           "rank": 21,
-          "model": "Claude Fable 5.1 (max with fallback)",
+          "model": "Claude Fable 5.1 (max)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-05"
         },
         {
           "rank": 22,
-          "model": "Claude Opus 5.5 (medium with fallback)",
+          "model": "Claude Opus 5.5 (medium)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-05"
         },
         {
           "rank": 23,
-          "model": "Claude Fable 5.1 (high with fallback)",
+          "model": "Claude Fable 5.1 (high)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-05"
@@ -454,7 +454,7 @@
         },
         {
           "rank": 29,
-          "model": "Claude Fable 5.1 (medium with fallback)",
+          "model": "Claude Fable 5.1 (medium)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-05"
