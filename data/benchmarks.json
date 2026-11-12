@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T12:29:09+00:00",
+  "generatedAt": "2026-11-12T22:10:37+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -141,107 +141,107 @@
         },
         {
           "rank": 16,
+          "model": "Gemini 4 Hydrogen (xhigh)",
+          "vendor": "Google",
+          "score": 54.0,
+          "date": "2026-11-12"
+        },
+        {
+          "rank": 17,
           "model": "GPT-6.1 Sol (xhigh)",
           "vendor": "OpenAI",
           "score": 52.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 17,
+          "rank": 18,
           "model": "Claude Opus 5.5 (high)",
           "vendor": "Anthropic",
           "score": 52.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "model": "GPT-6 Astra (medium)",
           "vendor": "OpenAI",
           "score": 52.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "model": "GPT-6.1 Terra (max)",
           "vendor": "OpenAI",
           "score": 51.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 20,
+          "rank": 21,
+          "model": "Gemini 4 Hydrogen (high)",
+          "vendor": "Google",
+          "score": 51.0,
+          "date": "2026-11-12"
+        },
+        {
+          "rank": 22,
           "model": "Gemini 4 Argon (high)",
           "vendor": "Google",
           "score": 50.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 21,
+          "rank": 23,
           "model": "GPT-6.1 Sol (high)",
           "vendor": "OpenAI",
           "score": 50.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 22,
+          "rank": 24,
           "model": "Muse Wonder Full (max)",
           "vendor": "Meta",
           "score": 50.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 23,
+          "rank": 25,
           "model": "Claude Sonnet 5.5 (xhigh)",
           "vendor": "Anthropic",
           "score": 50.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 24,
+          "rank": 26,
           "model": "Claude Opus 5.5 (medium)",
           "vendor": "Anthropic",
           "score": 48.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 25,
+          "rank": 27,
           "model": "Kimi K3.1 Pro",
           "vendor": "Kimi",
           "score": 46.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 26,
+          "rank": 28,
           "model": "GPT-6.1 Sol (medium)",
           "vendor": "OpenAI",
           "score": 46.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 27,
+          "rank": 29,
           "model": "GPT-6.1 Terra (xhigh)",
           "vendor": "OpenAI",
           "score": 45.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 28,
+          "rank": 30,
           "model": "Muse Wonder (max)",
           "vendor": "Meta",
           "score": 44.0,
-          "date": "2026-11-12"
-        },
-        {
-          "rank": 29,
-          "model": "GPT-6 Astra (low)",
-          "vendor": "OpenAI",
-          "score": 43.0,
-          "date": "2026-11-12"
-        },
-        {
-          "rank": 30,
-          "model": "GPT-6.1 Terra (high)",
-          "vendor": "OpenAI",
-          "score": 42.0,
           "date": "2026-11-12"
         }
       ]
@@ -370,98 +370,98 @@
         },
         {
           "rank": 17,
+          "model": "Gemini 4 Hydrogen (xhigh)",
+          "vendor": "Google",
+          "score": 1000000.0,
+          "date": "2026-11-12"
+        },
+        {
+          "rank": 18,
           "model": "GPT-6.1 Sol (xhigh)",
           "vendor": "OpenAI",
           "score": 1000000.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 18,
+          "rank": 19,
           "model": "Claude Opus 5.5 (high)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 19,
+          "rank": 20,
           "model": "GPT-6 Astra (medium)",
           "vendor": "OpenAI",
           "score": 1000000.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 20,
+          "rank": 21,
           "model": "GPT-6.1 Terra (max)",
           "vendor": "OpenAI",
           "score": 1000000.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 21,
+          "rank": 22,
+          "model": "Gemini 4 Hydrogen (high)",
+          "vendor": "Google",
+          "score": 1000000.0,
+          "date": "2026-11-12"
+        },
+        {
+          "rank": 23,
           "model": "Gemini 4 Argon (high)",
           "vendor": "Google",
           "score": 1000000.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 22,
+          "rank": 24,
           "model": "GPT-6.1 Sol (high)",
           "vendor": "OpenAI",
           "score": 1000000.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 23,
+          "rank": 25,
           "model": "Muse Wonder Full (max)",
           "vendor": "Meta",
           "score": 1000000.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 24,
+          "rank": 26,
           "model": "Claude Sonnet 5.5 (xhigh)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 25,
+          "rank": 27,
           "model": "Claude Opus 5.5 (medium)",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 26,
+          "rank": 28,
           "model": "Kimi K3.1 Pro",
           "vendor": "Kimi",
           "score": 1000000.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 27,
+          "rank": 29,
           "model": "GPT-6.1 Sol (medium)",
           "vendor": "OpenAI",
           "score": 1000000.0,
           "date": "2026-11-12"
         },
         {
-          "rank": 28,
-          "model": "GPT-6.1 Terra (xhigh)",
-          "vendor": "OpenAI",
-          "score": 1000000.0,
-          "date": "2026-11-12"
-        },
-        {
-          "rank": 29,
-          "model": "Muse Wonder (max)",
-          "vendor": "Meta",
-          "score": 1000000.0,
-          "date": "2026-11-12"
-        },
-        {
           "rank": 30,
-          "model": "GPT-6 Astra (low)",
+          "model": "GPT-6.1 Terra (xhigh)",
           "vendor": "OpenAI",
           "score": 1000000.0,
           "date": "2026-11-12"
