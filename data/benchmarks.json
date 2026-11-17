@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T13:01:45+00:00",
+  "generatedAt": "2026-11-17T23:26:34+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -43,30 +43,30 @@
         },
         {
           "rank": 2,
+          "model": "GPT-6.2 Astra Max",
+          "vendor": "OpenAI",
+          "score": 62.0,
+          "date": "2026-11-17"
+        },
+        {
+          "rank": 3,
           "model": "Gemini 4 Carbon High",
           "vendor": "Google",
           "score": 60.0,
           "date": "2026-11-17"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "model": "Claude Opus 5.5 Max, Default Fallback",
           "vendor": "Anthropic",
           "score": 59.0,
           "date": "2026-11-17"
         },
         {
-          "rank": 4,
-          "model": "GPT-6 Astra Max",
+          "rank": 5,
+          "model": "GPT-6.2 Sol Max",
           "vendor": "OpenAI",
           "score": 57.0,
-          "date": "2026-11-17"
-        },
-        {
-          "rank": 5,
-          "model": "GPT-6.1 Sol Max",
-          "vendor": "OpenAI",
-          "score": 55.0,
           "date": "2026-11-17"
         },
         {
@@ -272,28 +272,28 @@
         },
         {
           "rank": 3,
+          "model": "GPT-6.2 Astra Max",
+          "vendor": "OpenAI",
+          "score": 1000000.0,
+          "date": "2026-11-17"
+        },
+        {
+          "rank": 4,
           "model": "Gemini 4 Carbon High",
           "vendor": "Google",
           "score": 1000000.0,
           "date": "2026-11-17"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "model": "Claude Opus 5.5 Max, Default Fallback",
           "vendor": "Anthropic",
           "score": 1000000.0,
           "date": "2026-11-17"
         },
         {
-          "rank": 5,
-          "model": "GPT-6 Astra Max",
-          "vendor": "OpenAI",
-          "score": 1000000.0,
-          "date": "2026-11-17"
-        },
-        {
           "rank": 6,
-          "model": "GPT-6.1 Sol Max",
+          "model": "GPT-6.2 Sol Max",
           "vendor": "OpenAI",
           "score": 1000000.0,
           "date": "2026-11-17"
