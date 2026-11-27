@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T00:29:22+00:00",
+  "generatedAt": "2026-11-27T13:40:52+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -176,72 +176,72 @@
         },
         {
           "rank": 21,
+          "model": "ERNIE 5.5 Flash Preview",
+          "vendor": "Baidu",
+          "score": 31.0,
+          "date": "2026-11-27"
+        },
+        {
+          "rank": 22,
           "model": "Inkling 2 Small",
           "vendor": "—",
           "score": 31.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 22,
+          "rank": 23,
           "model": "MiMo-V2.6-Pro",
           "vendor": "Xiaomi",
           "score": 30.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 23,
+          "rank": 24,
           "model": "Ling 3.1 Flash 1019",
           "vendor": "—",
           "score": 30.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 24,
+          "rank": 25,
           "model": "MiniMax-M3.1-Flash",
           "vendor": "MiniMax",
           "score": 29.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 25,
+          "rank": 26,
           "model": "Step 5 Preview",
           "vendor": "—",
           "score": 29.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 26,
+          "rank": 27,
           "model": "Qwen3.8-Flash-Next",
           "vendor": "Alibaba",
           "score": 28.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 27,
+          "rank": 28,
           "model": "JoyAI-VL-Preview",
           "vendor": "—",
           "score": 28.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 28,
+          "rank": 29,
           "model": "GPT-6 Luna Max",
           "vendor": "OpenAI",
           "score": 28.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 29,
+          "rank": 30,
           "model": "GLM-5.3-Flash Max",
           "vendor": "Z.AI",
           "score": 28.0,
-          "date": "2026-11-27"
-        },
-        {
-          "rank": 30,
-          "model": "MiMo-V2.6-Flash",
-          "vendor": "Xiaomi",
-          "score": 27.0,
           "date": "2026-11-27"
         }
       ]
@@ -391,78 +391,78 @@
         },
         {
           "rank": 20,
+          "model": "ERNIE 5.5 Flash Preview",
+          "vendor": "Baidu",
+          "score": 1000000.0,
+          "date": "2026-11-27"
+        },
+        {
+          "rank": 21,
           "model": "Inkling 2 Small",
           "vendor": "—",
           "score": 1000000.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 21,
+          "rank": 22,
           "model": "MiMo-V2.6-Pro",
           "vendor": "Xiaomi",
           "score": 1000000.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 22,
+          "rank": 23,
           "model": "Ling 3.1 Flash 1019",
           "vendor": "—",
           "score": 1000000.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 23,
+          "rank": 24,
           "model": "MiniMax-M3.1-Flash",
           "vendor": "MiniMax",
           "score": 1000000.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 24,
+          "rank": 25,
           "model": "Step 5 Preview",
           "vendor": "—",
           "score": 1000000.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 25,
+          "rank": 26,
           "model": "JoyAI-VL-Preview",
           "vendor": "—",
           "score": 1000000.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 26,
+          "rank": 27,
           "model": "GPT-6 Luna Max",
           "vendor": "OpenAI",
           "score": 1000000.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 27,
+          "rank": 28,
           "model": "GLM-5.3-Flash Max",
           "vendor": "Z.AI",
           "score": 1000000.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 28,
+          "rank": 29,
           "model": "MiMo-V2.6-Flash",
           "vendor": "Xiaomi",
           "score": 1000000.0,
           "date": "2026-11-27"
         },
         {
-          "rank": 29,
+          "rank": 30,
           "model": "Mistral Large 4 High",
           "vendor": "Mistral",
-          "score": 1000000.0,
-          "date": "2026-11-27"
-        },
-        {
-          "rank": 30,
-          "model": "Muse Spark Open Xhigh",
-          "vendor": "—",
           "score": 1000000.0,
           "date": "2026-11-27"
         }
