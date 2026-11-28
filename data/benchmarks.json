@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T23:58:41+00:00",
+  "generatedAt": "2026-11-28T07:34:55+00:00",
   "sources": [
     {
       "name": "Artificial Analysis",
@@ -32,217 +32,217 @@
       "description": "AA 综合智力指数，融合 MMLU-Pro、GPQA Diamond、HumanEval、AIME、SciCode 等。",
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
-      "updatedAt": "2026-11-27",
+      "updatedAt": "2026-11-28",
       "entries": [
         {
           "rank": 1,
           "model": "Claude Fable 5.2 Max, Default Fallback",
           "vendor": "Anthropic",
           "score": 65.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 2,
           "model": "GPT-6.2 Astra Max",
           "vendor": "OpenAI",
           "score": 62.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 3,
           "model": "Gemini 4 Neon Xhigh",
           "vendor": "Google",
           "score": 62.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 4,
           "model": "Gemini 4 Carbon High",
           "vendor": "Google",
           "score": 60.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 5,
           "model": "Claude Opus 5.5 Max, Default Fallback",
           "vendor": "Anthropic",
           "score": 59.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 6,
           "model": "GPT-6.2 Sol Max",
           "vendor": "OpenAI",
           "score": 57.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 7,
           "model": "Claude Sonnet 5.5 Max, Default Fallback",
           "vendor": "Anthropic",
           "score": 55.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 8,
           "model": "Gemini 4 Hydrogen Xhigh",
           "vendor": "Google",
           "score": 54.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 9,
           "model": "GPT-6.1 Terra Max",
           "vendor": "OpenAI",
           "score": 51.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 10,
           "model": "Gemini 4 Argon High",
           "vendor": "Google",
           "score": 51.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 11,
           "model": "Muse Wonder Full Max",
           "vendor": "—",
           "score": 50.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 12,
           "model": "Kimi K3.1 Pro",
           "vendor": "Moonshot AI",
           "score": 47.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 13,
           "model": "Muse Wonder Max",
           "vendor": "—",
           "score": 44.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 14,
           "model": "Qwen4 Max",
           "vendor": "Alibaba",
           "score": 43.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 15,
           "model": "Claude Haiku 5.5 Max",
           "vendor": "Anthropic",
           "score": 37.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 16,
           "model": "Muse Ember Max",
           "vendor": "—",
           "score": 36.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 17,
           "model": "Grok 4.7 Xhigh",
           "vendor": "xAI",
           "score": 35.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 18,
           "model": "Tencent Hy4",
           "vendor": "—",
           "score": 35.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 19,
           "model": "DeepSeek V4.1 Flash 1017 Max",
           "vendor": "DeepSeek",
           "score": 32.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 20,
           "model": "GLM-5.3 Max",
           "vendor": "Z.AI",
           "score": 32.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 21,
           "model": "ERNIE 5.5 Flash Preview",
           "vendor": "Baidu",
           "score": 31.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 22,
           "model": "Inkling 2 Small",
           "vendor": "—",
           "score": 31.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 23,
           "model": "MiMo-V2.6-Pro",
           "vendor": "Xiaomi",
           "score": 30.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 24,
           "model": "Ling 3.1 Flash 1019",
           "vendor": "—",
           "score": 30.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 25,
           "model": "MiniMax-M3.1-Flash",
           "vendor": "MiniMax",
           "score": 29.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 26,
           "model": "Step 5 Preview",
           "vendor": "—",
           "score": 29.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 27,
           "model": "Qwen3.8-Flash-Next",
           "vendor": "Alibaba",
           "score": 28.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 28,
           "model": "JoyAI-VL-Preview",
           "vendor": "—",
           "score": 28.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 29,
           "model": "GPT-6 Luna Max",
           "vendor": "OpenAI",
           "score": 28.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 30,
           "model": "GLM-5.3-Flash Max",
           "vendor": "Z.AI",
           "score": 28.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         }
       ]
     },
@@ -254,217 +254,217 @@
       "description": "AA 上下文窗口（最大输入 token 数），数值越大支持的上下文越长。",
       "source": "Artificial Analysis",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
-      "updatedAt": "2026-11-27",
+      "updatedAt": "2026-11-28",
       "entries": [
         {
           "rank": 1,
           "model": "Llama 4 Scout",
           "vendor": "Meta",
           "score": 10000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 2,
           "model": "Claude Fable 5.2 Max, Default Fallback",
           "vendor": "Anthropic",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 3,
           "model": "GPT-6.2 Astra Max",
           "vendor": "OpenAI",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 4,
           "model": "Gemini 4 Neon Xhigh",
           "vendor": "Google",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 5,
           "model": "Gemini 4 Carbon High",
           "vendor": "Google",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 6,
           "model": "Claude Opus 5.5 Max, Default Fallback",
           "vendor": "Anthropic",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 7,
           "model": "GPT-6.2 Sol Max",
           "vendor": "OpenAI",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 8,
           "model": "Claude Sonnet 5.5 Max, Default Fallback",
           "vendor": "Anthropic",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 9,
           "model": "Gemini 4 Hydrogen Xhigh",
           "vendor": "Google",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 10,
           "model": "GPT-6.1 Terra Max",
           "vendor": "OpenAI",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 11,
           "model": "Gemini 4 Argon High",
           "vendor": "Google",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 12,
           "model": "Muse Wonder Full Max",
           "vendor": "—",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 13,
           "model": "Kimi K3.1 Pro",
           "vendor": "Moonshot AI",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 14,
           "model": "Muse Wonder Max",
           "vendor": "—",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 15,
           "model": "Claude Haiku 5.5 Max",
           "vendor": "Anthropic",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 16,
           "model": "Muse Ember Max",
           "vendor": "—",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 17,
           "model": "Tencent Hy4",
           "vendor": "—",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 18,
           "model": "DeepSeek V4.1 Flash 1017 Max",
           "vendor": "DeepSeek",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 19,
           "model": "GLM-5.3 Max",
           "vendor": "Z.AI",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 20,
           "model": "ERNIE 5.5 Flash Preview",
           "vendor": "Baidu",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 21,
           "model": "Inkling 2 Small",
           "vendor": "—",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 22,
           "model": "MiMo-V2.6-Pro",
           "vendor": "Xiaomi",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 23,
           "model": "Ling 3.1 Flash 1019",
           "vendor": "—",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 24,
           "model": "MiniMax-M3.1-Flash",
           "vendor": "MiniMax",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 25,
           "model": "Step 5 Preview",
           "vendor": "—",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 26,
           "model": "JoyAI-VL-Preview",
           "vendor": "—",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 27,
           "model": "GPT-6 Luna Max",
           "vendor": "OpenAI",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 28,
           "model": "GLM-5.3-Flash Max",
           "vendor": "Z.AI",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 29,
           "model": "MiMo-V2.6-Flash",
           "vendor": "Xiaomi",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         },
         {
           "rank": 30,
           "model": "Mistral Large 4 High",
           "vendor": "Mistral",
           "score": 1000000.0,
-          "date": "2026-11-27"
+          "date": "2026-11-28"
         }
       ]
     },
